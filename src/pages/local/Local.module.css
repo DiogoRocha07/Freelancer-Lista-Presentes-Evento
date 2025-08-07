@@ -1,0 +1,40 @@
+.container {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin: 8px 0 16px;
+  font-style: italic;
+}
+
+.address {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.addressContainer {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.mapContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

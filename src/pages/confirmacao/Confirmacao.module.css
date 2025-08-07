@@ -1,0 +1,178 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  color: #4a503d;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.form {
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form input,
+.form select {
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.radioGroup div {
+  display: flex;
+  gap: 1rem;
+}
+
+.radioGroup label {
+  font-weight: normal;
+}
+
+.form button {
+  background-color: #6a754a;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #5c6640;
+}
+
+.form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  text-align: center;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  text-align: center;
+  border: 1px solid #f5c6cb;
+}
+
+.presenteContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buscaWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.buscaPresenteInput {
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border 0.2s ease;
+}
+
+.buscaPresenteInput:focus {
+  outline: none;
+  border-color: #6a754a;
+}
+
+.buscaPresenteInput:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.presenteSelect {
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border 0.2s ease;
+}
+
+.presenteSelect:focus {
+  outline: none;
+  border-color: #6a754a;
+}
+
+.presenteSelect:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.limparBusca {
+  position: absolute;
+  right: 8px;
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.limparBusca:hover {
+  background-color: #f0f0f0;
+  color: #666;
+}
+
+.limparBusca:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

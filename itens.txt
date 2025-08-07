@@ -1,0 +1,374 @@
+[
+  {
+    "url": "https://www.amazon.com.br/Philips-Ambilight-55PUG7908-78-Bluetooth/dp/B0CCJXV795/ref=asc_df_B0CCJXV795?mcid=2def18660bf23164b730ca6990caae91&tag=googleshopp00-20&linkCode=df0&hvadid=709964502896&hvpos=&hvnetw=g&hvrand=7753635637840375250&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-2203235078046&psc=1&language=pt_BR&gad_source=1",
+    "title": "Smart TV Philips Ambilight 55",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Enchimentos-Almofada-Refil-45x45-Kit-2-4-6-%E2%80%93-Espuma-Macia-e-Pronta-para-Uso-i.699402295.23994157362?sp_atk=a8aaebcc-4775-4882-a26f-d9d7be5d5a0c&xptdk=a8aaebcc-4775-4882-a26f-d9d7be5d5a0c",
+    "title": "Kit Enchimentos Almofada 45x45",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Vaso-M%C3%B4naco-em-Cer%C3%A2mica-de-alta-qualidade-i.1225901814.23398427689?sp_atk=20e381f9-8174-4818-b4d8-61df6689c887&xptdk=20e381f9-8174-4818-b4d8-61df6689c887",
+    "title": "Vaso Mônaco em Cerâmica Off-White Fosco",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Mesa-De-Apoio-Lateral-Estilo-Industrial-Em-MDF-E-Ferro-Oval-Para-Canto-45x28x59-5Cm-Bege-Ou-Marrom-i.1046470373.22898064489?sp_atk=a82d45dd-d97c-492c-ab00-0097c23dc7a8&xptdk=a82d45dd-d97c-492c-ab00-0097c23dc7a8",
+    "title": "Mesa de Apoio Lateral Industrial Bege",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Est%C3%A1tua-Decorativa-Casal-Abra%C3%A7ado-Casa-Quarto-Decora%C3%A7%C3%A3o-Moderna-Luxo-Dourada-Prata-Preta-Branca-i.1365263831.20997924585?sp_atk=c4441863-5ac6-4c02-aa0f-93c1e761e021&xptdk=c4441863-5ac6-4c02-aa0f-93c1e761e021",
+    "title": "Estátua Decorativa Casal Abraçado Branca",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/JOGO-CHURRASCO-INOX-12PC-DYNAMIC/dp/B07JQ34V7F/ref=asc_df_B07JQ34V7F?mcid=8f46c3e863d239f2a69a8ce0881040ea&tag=googleshopp00-20&linkCode=df0&hvadid=709885039594&hvpos=&hvnetw=g&hvrand=4132264081692996416&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-909473839399&psc=1&language=pt_BR&gad_source=1",
+    "title": "Jogo de Talher Churrasco Inox 12 Peças",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Jogo-de-Facas-Faca/dp/B0DZXYMLWZ/ref=sr_1_13?crid=F77D968COVUJ&dib=eyJ2IjoiMSJ9.1MpuJXfPzfomqqhy5OGybwfqmgX_eQfRjGOuTCGAN2xqmot9-bTPGr6ZeFQd02KWjikWGaoBC3WVmAVWFciiaVHdiwg9yNVWOaAXYlT3g-E6H6XTxfbpAd3zJeCPkLADbGj9-8DJL9bElF_WY9_-3N2UpEajHyvr_-3z99kSwy8Nez-Ekt9Pqtm72LYWhIS20bGq6AT87vkT5vVvAfaFLMzjv5iDlMzW6fR81ak6NwDOT7U42klRmVtLVkA9mClUpT-Q0wVBJH94--g_MbBxm4rHmESOHisFtqJs8QH53M4.BxZjEpLTVDFLkEiBSMzpgV5-yEffuEPokSoS-8etzQI&dib_tag=se&keywords=jogo+de+facas&qid=1751329806&sprefix=Jogo+de+Faca%2Caps%2C363&sr=8-13&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74",
+    "title": "Jogo de Facas",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Oster-Baldwyn-Conjunto-talheres-inoxid%C3%A1vel/dp/B00M77VAQC/ref=asc_df_B00M77VAQC?mcid=5c1abd781a3e3046a07397c89269c61f&tag=googleshopp00-20&linkCode=df0&hvadid=709964506220&hvpos=&hvnetw=g&hvrand=2063078266010720517&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-318309896286&language=pt_BR&gad_source=1&th=1",
+    "title": "Conjunto Talheres Oster Baldwyn Inox",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Aparelho-Jantar-Ch%C3%A1-pe%C3%A7as-Maresias/dp/B0BZ54N724/ref=asc_df_B0BZ54N724?mcid=a4e0e71d4a4f326cb557f2cb27021ab8&tag=googleshopp00-20&linkCode=df0&hvadid=709964506244&hvpos=&hvnetw=g&hvrand=11629763910563889909&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-2202273973156&psc=1&language=pt_BR&gad_source=1",
+    "title": "Aparelho de Jantar e Chá Maresias",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/NADIR-FIGUEIREDO-Copos-Aruba-Drink/dp/B0C6NVRY3V/ref=asc_df_B0C6NVRY3V?mcid=d0b61b68f3553e828f193539538f9111&tag=googleshopp00-20&linkCode=df0&hvadid=709964506238&hvpos=&hvnetw=g&hvrand=4485830946856669520&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-2200682719833&psc=1&language=pt_BR&gad_source=4",
+    "title": "Jogo de Copos Nadir Figueiredo Aruba",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Jogo-6-Copos-de-Vidro-Versalhes-Fio-De-Ouro-Borda-Dourada-Cameratta-Grafiatto-Canelado-420ml-i.451432371.40505069828?sp_atk=72041605-cc40-4972-be76-22532f5c4cf0&xptdk=72041605-cc40-4972-be76-22532f5c4cf0",
+    "title": "Jogo 6 Copos Vidro Versalhes Borda Dourada",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://produto.mercadolivre.com.br/MLB-5390010634-kit-6-copos-de-vidro-diamante-c-borda-dourada-350ml-_JM?matt_tool=48995110&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22603531562&matt_ad_group_id=181244933895&matt_match_type=&matt_network=g&matt_device=c&matt_creative=758138322200&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=5595324134&matt_product_id=MLB5390010634&matt_product_partition_id=2429959781261&matt_target_id=aud-1966489759667:pla-2429959781261&cq_src=google_ads&cq_cmp=22603531562&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=4&gad_campaignid=22603531562&gbraid=0AAAAAD93qcAiiPhHkqzmH78mbKYiI55qm&gclid=Cj0KCQjw64jDBhDXARIsABkk8J6XbvZ705e9V64eXaWrcGQvg4520fwOgaGHrnlOvmna9R6DWaeRy-EaAngVEALw_wcB",
+    "title": "Kit 6 Copos Vidro Diamante Borda Dourada",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Conj-4-Xicaras-Cafe-90ml-4-Pires-de-Bambu-Hauskfraft-i.345663395.23393569660?sp_atk=eb45cae1-2aaf-4eb0-9002-18ec67395a7d&xptdk=eb45cae1-2aaf-4eb0-9002-18ec67395a7d",
+    "title": "Conjunto 4 Xícaras Café com Pires Bambu",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Potes-Tempero-de-vidro-com-Tampa-Inox-Cozinha-Organizador-i.524539734.43700911125?sp_atk=9115a8df-3066-48c3-9714-3b874cbbdbbf&xptdk=9115a8df-3066-48c3-9714-3b874cbbdbbf",
+    "title": "Potes Tempero Vidro com Tampa Inox",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Potes-De-Vidro-Hermetico-Tempero-Tampa-Inox-150ml-Kit-Com-6-i.489870373.22894047535?sp_atk=72fc3bb5-eea5-4715-9fe4-f2d20b1ab820&xptdk=72fc3bb5-eea5-4715-9fe4-f2d20b1ab820",
+    "title": "Kit 6 Potes Vidro Hermético Tempero 150ml",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/product/1398934533/27968827694?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkWHlFU0hvQlZFVENpb1FnT09uNDlDSUpRM3ZBb2hYVUZIL2tHY0wwUWNuTVhFMzRXNWZWaE5rSGNUZ1ZzY2ZER0IvN0tncy84bk0vdjRZM3JBVlB0dVVoSlIwNVYycHhwOUlBV0JjeFRlczh6ZWhWL08yS2xDVzRWcUNQdXRTWk93PT0&gad_source=4&gad_campaignid=20824904861&gbraid=0AAAAACoEtRkdBaZMbvKWp8tbuOf9Ornhm&gclid=Cj0KCQjw64jDBhDXARIsABkk8J7OOX4ZyOPEZF3XZFw3kaZCtIuhnU3Pso1QECKLlJuYj5-eForoCeMaArFtEALw_wcB",
+    "title": "Tábua de Corte",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.magazineluiza.com.br/jogo-de-panelas-brinox-revestimento-ceramico-de-aluminio-preto-5-pecas-carbon-ceramic-life/p/237663000/ud/cjpn/?&seller_id=magazineluiza&utm_source=google&utm_medium=cpc&utm_term=79480&utm_campaign=google_eco_per_ven_pla_lev_apo_1p_ud-csp&utm_content=&partner_id=79480&gclsrc=aw.ds&gad_source=1&gad_campaignid=22416883677&gbraid=0AAAAAD4zZmQcCgYbBjnrH7rJvvuqZ-_Xo&gclid=Cj0KCQjw64jDBhDXARIsABkk8J54Yro_P0_yZI9Hz1DIr8iNemJ_wSTrigIpNrUvbl28BA5UBuDQRmgaAlGTEALw_wcB",
+    "title": "Jogo Panelas Brinox Cerâmico 5 Peças",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.mercadolivre.com.br/kit-4-descanso-de-panela-protetor-de-mesa-em-silicone-18cm-cor-cinzento-no/p/MLB45329214?pdp_filters=item_id%3AMLB4096034429&from=gshop&matt_tool=44747869&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22603531439&matt_ad_group_id=183641039649&matt_match_type=&matt_network=g&matt_device=c&matt_creative=758138322197&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735125422&matt_product_id=MLB45329214-product&matt_product_partition_id=2424646252522&matt_target_id=aud-1966489759667:pla-2424646252522&cq_src=google_ads&cq_cmp=22603531439&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22603531439&gbraid=0AAAAAD93qcAAANTbqVLhBl7k6dHm7mDj-&gclid=Cj0KCQjw64jDBhDXARIsABkk8J64ODLwV3XwX4S6bivMWHpEKDhAMqGnRmEjf_N69fNZ80hSOUyRY-4aAn_gEALw_wcB",
+    "title": "Kit 4 Descanso Panela Silicone 18cm",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Escorredor-Tramontina-Compacto-Talheres-Grafite/dp/B09925BNS3/ref=asc_df_B09925BNS3?mcid=cc4b11b558f731edaac66b772e2cc458&tag=googleshopp00-20&linkCode=df0&hvadid=709886750320&hvpos=&hvnetw=g&hvrand=5656502943329930846&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-1514403271589&psc=1&language=pt_BR&gad_source=1",
+    "title": "Escorredor Louça Tramontina Compacto",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Ralador-Faces-Coletor-Pratic-Brinox/dp/B08PHZ58XQ/ref=asc_df_B08PHZ58XQ?mcid=143f184438e839279f1885723fc8fd11&tag=googleshopp00-20&linkCode=df0&hvadid=709876289439&hvpos=&hvnetw=g&hvrand=15843157350278801073&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-1188325055988&psc=1&language=pt_BR&gad_source=1",
+    "title": "Ralador 4 Faces com Coletor Brinox",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/OIKOS-COZ00500PRT-Abridor-de-Lata/dp/B085JSWNT6?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A1ZZFT5FULY4LN&th=1",
+    "title": "Abridor de Latas Oikos",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Jogo-Assadeiras-Retangular-Alum%C3%ADnio-Formas/dp/B09B467LQ6/ref=pd_sbs_d_sccl_2_8/144-1451247-7603813?pd_rd_w=Sfjbh&content-id=amzn1.sym.53b2f13e-ab3a-40f2-aab9-7e4b988d3762&pf_rd_p=53b2f13e-ab3a-40f2-aab9-7e4b988d3762&pf_rd_r=0CFYJ0J4HYY7TDJE50AR&pd_rd_wg=Os9bf&pd_rd_r=9e13724c-e841-4f0a-b6ac-51a0d7c820bb&pd_rd_i=B09B467LQ6&psc=1",
+    "title": "Jogo Assadeiras Retangular Alumínio",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Jogo-Forma-Pudim-Redonda-Aluminio/dp/B0CNNTJMLR/ref=pd_sbs_d_sccl_2_7/144-1451247-7603813?pd_rd_w=R5rGN&content-id=amzn1.sym.53b2f13e-ab3a-40f2-aab9-7e4b988d3762&pf_rd_p=53b2f13e-ab3a-40f2-aab9-7e4b988d3762&pf_rd_r=GRSS31Z5QATM3FJP4ZPP&pd_rd_wg=eALRb&pd_rd_r=b1e4b0c4-d74d-4bd2-8096-39054d7771e0&pd_rd_i=B0CNNTJMLR&psc=1",
+    "title": "Jogo Forma Pudim Redonda Alumínio",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B08CPTZP2T/ref=asc_df_B08CPTZP2T?mcid=a3361ee15d503402a9ba3d29b275b46f&tag=googleshopp00-20&linkCode=df0&hvadid=709870389015&hvpos=&hvnetw=g&hvrand=12264064505488778749&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-1364251762771&psc=1&language=pt_BR&gad_source=4",
+    "title": "Potes Vidro Retangular Tampa Hermética",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Kit-10-Panos-de-Prato-e-Copa-100-Algod%C3%A3o-Guardanapos-Sem-Estampa-i.1214598836.19399494777?sp_atk=2afc0f9a-7b31-45ac-8702-8eb00bf08c9c&xptdk=2afc0f9a-7b31-45ac-8702-8eb00bf08c9c",
+    "title": "Kit 10 Panos Prato e Copa 100% Algodão",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/RODO-MULTIUSO-FLOW-BEGE-FECHADO/dp/B0CZTTVLWK/ref=asc_df_B0CZTTVLWK?mcid=255811fc4c2f37eeb5b6c87469dd0d89&tag=googleshopp00-20&linkCode=df0&hvadid=709968341005&hvpos=&hvnetw=g&hvrand=13620267364509507001&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-2309959181970&psc=1&language=pt_BR&gad_source=1",
+    "title": "Rodo Multiuso Flow Bege",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Descascador-Liso-Inox-Verano-Tramontina/dp/B07QD2KY8R/ref=asc_df_B07QD2KY8R?mcid=719c0f79a3a638939139a40489293af3&tag=googleshopp00-20&linkCode=df0&hvadid=709964506289&hvpos=&hvnetw=g&hvrand=10126513829862360107&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-1287091294240&psc=1&language=pt_BR&gad_source=1",
+    "title": "Descascador Liso Inox Tramontina",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://produto.mercadolivre.com.br/MLB-2096318834-escorredor-inteligente-2-litros-branco-arroz-massa-legumes-_JM?matt_tool=48995110&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22603531562&matt_ad_group_id=181244933895&matt_match_type=&matt_network=g&matt_device=c&matt_creative=758138322200&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=262554672&matt_product_id=MLB2096318834&matt_product_partition_id=2424443221566&matt_target_id=aud-1966489759667:pla-2424443221566&cq_src=google_ads&cq_cmp=22603531562&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22603531562&gbraid=0AAAAAD93qcDLGlv3AIXJUsNzP_nESGVDN&gclid=Cj0KCQjw64jDBhDXARIsABkk8J5hSNv9UtXQpzoURBffeGjuyGwDhFVDnkYo25d81L5XmlxMJwZIpKcaAsmSEALw_wcB",
+    "title": "Escorredor Inteligente 2 Litros Branco",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Conjunto-Bowls-Tigelas-Pl%C3%A1stica-Electrolux/dp/B0C2ZNDWK6/ref=asc_df_B0C2ZNDWK6?mcid=05f1623cd00934bbb815f6b37afa526a&tag=googleshopp00-20&linkCode=df0&hvadid=709964506214&hvpos=&hvnetw=g&hvrand=17237737415491785310&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-2203277870598&psc=1&language=pt_BR&gad_source=1",
+    "title": "Conjunto Bowls Tigelas Electrolux",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Jarra-Medidor-Vidro-Lyor-Transparente/dp/B07PJ1PVQT/ref=asc_df_B07PJ1PVQT?mcid=167c2e0491fb3971989ec8256a35aa59&tag=googleshopp00-20&linkCode=df0&hvadid=709964506238&hvpos=&hvnetw=g&hvrand=2375477149276344035&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-915257723751&psc=1&language=pt_BR&gad_source=1",
+    "title": "Jarra Medidor Vidro Lyor Transparente",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.mercadolivre.com.br/lixeira-inox-escovado-retangular-12-l-pedal-balde-removivel-cor-aco-inox-escovado/p/MLB34921106?pdp_filters=item_id%3AMLB5271806990&from=gshop&matt_tool=13891073&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090193717&matt_ad_group_id=174661960724&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727914179434&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735128188&matt_product_id=MLB34921106-product&matt_product_partition_id=2392714357581&matt_target_id=aud-1966489759667:pla-2392714357581&cq_src=google_ads&cq_cmp=22090193717&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090193717&gbraid=0AAAAAD93qcDuvWdjZUKezn694ns_pHmA9&gclid=Cj0KCQjw64jDBhDXARIsABkk8J5KSRXPTCLhGmGJu0Ebg6QTubLkYXt03w7UGntBXAIDoyMCZ9FnluMaAm4KEALw_wcB",
+    "title": "Lixeira Inox Escovado 12L com Pedal",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Petisqueira-Bambu-Divis%C3%B3rias-Round-25cm/dp/B08X21CCPC/ref=asc_df_B08X21CCPC?mcid=994fde5063c5393e90bb1af17039b33a&tag=googleshopp00-20&linkCode=df0&hvadid=709878548112&hvpos=&hvnetw=g&hvrand=14255592987320665850&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-1681158269493&language=pt_BR&gad_source=1&th=1",
+    "title": "Petisqueira Bambu com Divisórias 25cm",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://produto.mercadolivre.com.br/MLB-4113430792-boleira-de-vidro-com-tampa-e-prato-para-bolo-vitazza-_JM#polycard_client=recommendations_vpp-pdp-v2p-pom&reco_backend=ranker_retrieval_system_vpp_v2p&reco_model=ranker_entity_v2_retrieval_system_vpp_v2p&reco_client=vpp-pdp-v2p-pom&reco_item_pos=1&reco_backend_type=low_level&reco_id=a03c9ba2-214b-4727-a332-c8f4f0b3a5ba",
+    "title": "Boleira Vidro com Tampa e Prato Vitazza",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://produto.mercadolivre.com.br/MLB-2053417600-suporte-porta-papel-toalha-de-mesa-cromado-inox-cozinha-_JM?matt_tool=44747869&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22603531439&matt_ad_group_id=183641039649&matt_match_type=&matt_network=g&matt_device=c&matt_creative=758138322197&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=335954354&matt_product_id=MLB2053417600&matt_product_partition_id=2424646252682&matt_target_id=aud-1966489759667:pla-2424646252682&cq_src=google_ads&cq_cmp=22603531439&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22603531439&gbraid=0AAAAAD93qcAAANTbqVLhBl7k6dHm7mDj-&gclid=Cj0KCQjw64jDBhDXARIsABkk8J4NcalxgicBSugQTmriogmdZdPNOD6dJwyyMPmxwKQYVxXzRC25xr0aAl_-EALw_wcB",
+    "title": "Suporte Porta Papel Toalha Mesa Cromado",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.mercadolivre.com.br/secador-de-salada-clear-fresh-55l-branco-ou/p/MLB40828996?pdp_filters=item_id%3AMLB5066133282&from=gshop&matt_tool=44747869&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22603531439&matt_ad_group_id=183641039649&matt_match_type=&matt_network=g&matt_device=c&matt_creative=758138322197&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735128761&matt_product_id=MLB40828996-product&matt_product_partition_id=2424646252522&matt_target_id=aud-1966489759667:pla-2424646252522&cq_src=google_ads&cq_cmp=22603531439&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22603531439&gbraid=0AAAAAD93qcAAANTbqVLhBl7k6dHm7mDj-&gclid=Cj0KCQjw64jDBhDXARIsABkk8J6LspoGTGp9kGMc7nZ61xaZ6DPbXcPz7Cga9huOGMojUlmiXY_Q-9gaAkB7EALw_wcB",
+    "title": "Secador Salada Clear Fresh 5,5L Branco",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Pote-para-Alho-New-Fattoria/dp/B0CD8PTNSB/ref=asc_df_B0CD8PTNSB?mcid=f8658619a86f362b9db5190156f648e6&tag=googleshopp00-20&linkCode=df0&hvadid=709870389015&hvpos=&hvnetw=g&hvrand=13431283076654430780&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-2244241598102&psc=1&language=pt_BR&gad_source=1",
+    "title": "Pote para Alho New Fattoria",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://produto.mercadolivre.com.br/MLB-3886816103-caneco-leiteira-fervedor-royal-15-l-fogo-de-induco-e-gas-_JM?matt_tool=31493002&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090354070&matt_ad_group_id=173090533396&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727882727478&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=5423738810&matt_product_id=MLB3886816103&matt_product_partition_id=2388009210146&matt_target_id=aud-1966489759667:pla-2388009210146&cq_src=google_ads&cq_cmp=22090354070&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=4&gad_campaignid=22090354070&gbraid=0AAAAAD93qcCdBlb20F0zmU8aXEWj6qUVG&gclid=Cj0KCQjw64jDBhDXARIsABkk8J79wsSEGmyZn8V6EAEFB72Phc1Boez6gkDgniMrJGWsGHdgw5MORQwaAui-EALw_wcB",
+    "title": "Caneco Leiteira Fervedor Royal 1,5L",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.mercadolivre.com.br/garrafa-termica-cafe-nordica-1-litro-cabo-madeira-no-vaza-cor-branco/p/MLB36933746?pdp_filters=item_id%3AMLB4059778027&from=gshop&matt_tool=44747869&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22603531439&matt_ad_group_id=183641039649&matt_match_type=&matt_network=g&matt_device=c&matt_creative=758138322197&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098660&matt_product_id=MLB36933746-product&matt_product_partition_id=2424646252682&matt_target_id=aud-1966489759667:pla-2424646252682&cq_src=google_ads&cq_cmp=22603531439&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=4&gad_campaignid=22603531439&gbraid=0AAAAAD93qcBBfG6ONvr7gtOKmDxH_DsTG&gclid=Cj0KCQjw64jDBhDXARIsABkk8J64wP-byYYLG8WZpc40X-p2XgNXSoRXyuIItPA0RHTJVRfDUb-YhFUaAjFuEALw_wcB",
+    "title": "Garrafa Térmica Café Nórdica 1L Branco",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Jogo-Americano-Fio-De-Algod%C3%A3o-Oval-Para-Mesa-De-Jantar-Utilidade-Descanso-Para-Pratos-Cozinha-i.1046470373.22293213602?sp_atk=dcabd278-222a-4791-8fca-fe74a89fd290&xptdk=dcabd278-222a-4791-8fca-fe74a89fd290",
+    "title": "Jogo Americano Algodão Oval Cor Areia",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Kit-Abridor-de-Vinho-Preto/dp/B09V13141T/ref=asc_df_B09V13141T?mcid=820ea5864e013cc6a27210b8b4eb2e9d&tag=googleshopp00-20&linkCode=df0&hvadid=709964506241&hvpos=&hvnetw=g&hvrand=4508037215726851430&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-1722266124184&psc=1&language=pt_BR&gad_source=4",
+    "title": "Kit Abridor de Vinho Preto",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/tacas-vinho-branco-cristal-ecologico/dp/B0B5LL9MXB/ref=asc_df_B0B5LL9MXB?mcid=e21533d4c80b333db656f19b7f305c8e&tag=googleshopp00-20&linkCode=df0&hvadid=709964506238&hvpos=&hvnetw=g&hvrand=11462226486256120731&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-1943688273302&psc=1&language=pt_BR&gad_source=4",
+    "title": "Taças Vinho Branco Cristal Ecológico",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Marinex-Conjunto-Assadeiras-Retangulares-Incolor/dp/B0016LHBHM/ref=asc_df_B0016LHBHM?mcid=4f976261ea703ed8b8139fe78f1be764&tag=googleshopp00-20&linkCode=df0&hvadid=709964506256&hvpos=&hvnetw=g&hvrand=2818129364072456091&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-918825582675&psc=1&language=pt_BR&gad_source=4",
+    "title": "Conjunto Assadeiras Marinex Retangulares",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Kit-Jogo-De-Passadeiras-3-Pe%C3%A7as-Sendo-Em-100-Algod%C3%A3o-Sala-Quarto-Cozinha-Banheiro-i.358622066.14757970986?sp_atk=575b46c1-5d78-4821-b378-b53d695e3325&xptdk=575b46c1-5d78-4821-b378-b53d695e3325",
+    "title": "Kit Jogo Passadeiras 3 Peças Cinza/Natural",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Mimo-Style-Inoxid%C3%A1vel-Ingredientes-ASA20395/dp/B097G77T7R/ref=asc_df_B097G77T7R?mcid=6d069e4bdb4c3284a6c0f95c3bb7cd95&tag=googleshopp00-20&linkCode=df0&hvadid=709968341026&hvpos=&hvnetw=g&hvrand=17753819334712753495&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-1822527203712&psc=1&language=pt_BR&gad_source=4",
+    "title": "Medidores Inoxidável Ingredientes Mimo",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Pote-Clear-Trio-Coza-Branco/dp/B07QBSPK2W/ref=asc_df_B07QBSPK2W?mcid=12989359dd8532bc95fca9a0829517bd&tag=googleshopp00-20&linkCode=df0&hvadid=709874962041&hvpos=&hvnetw=g&hvrand=12722709611888348902&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-811953651065&language=pt_BR&gad_source=4&th=1",
+    "title": "Pote Clear Trio Coza Branco Porta Frios",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://shopee.com.br/Kit-2-Recipientes-Para-Ovos-Com-Tampa-E-Al%C3%A7a-Para-Geladeira-Porta-Ovos-i.712988514.22093993979?sp_atk=6be7b05e-99da-43e4-9ed5-9c9a28f87171&xptdk=6be7b05e-99da-43e4-9ed5-9c9a28f87171",
+    "title": "Kit 2 Recipientes Porta Ovos Geladeira",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Organizadores-Geladeira-Arm%C3%A1rio-Alimentos-Vegetais/dp/B0BLZR6JFJ/ref=asc_df_B0BLZR6JFJ?mcid=1f5984c5ea073dd1bc234c4ab7ca74d8&tag=googleshopp00-20&linkCode=df0&hvadid=709886750320&hvpos=&hvnetw=g&hvrand=12334107561448279868&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-1946522054351&psc=1&language=pt_BR&gad_source=4",
+    "title": "Organizadores Geladeira Armário Alimentos",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Molheira-Vidro-Cremeira-Molhos-Azeite/dp/B0DK9WT5W8/ref=asc_df_B0DK9WT5W8?mcid=2466d33e4b7130e4bd1a2dde2a1e735a&tag=googleshopp00-20&linkCode=df0&hvadid=709878548112&hvpos=&hvnetw=g&hvrand=1382812001693116856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-2386964159747&psc=1&language=pt_BR&gad_source=4",
+    "title": "Molheira Vidro Cremeira para Molhos",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Bowl-Cristal-Martelado-Borda-Dourada/dp/B0B5J14HPX/ref=asc_df_B0B5HRK1MP?mcid=3d9edccfff953586b4964b3cf8e0941d&tag=googleshopp00-20&linkCode=df0&hvadid=709964506304&hvpos=&hvnetw=g&hvrand=9604559951876325124&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-2202492091395&language=pt_BR&gad_source=4&th=1",
+    "title": "Bowl Cristal Martelado Borda Dourada",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Tramontina-Alum%C3%ADnio-Revestimento-Antiaderente-Starflon/dp/B0CDZHNPRP/ref=asc_df_B0CDZHNPRP?mcid=65a5d0c36bb4340380489e8eb52f040c&tag=googleshopp00-20&linkCode=df0&hvadid=709886750320&hvpos=&hvnetw=g&hvrand=8866853086732213393&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-2451169537352&psc=1&language=pt_BR&gad_source=4",
+    "title": "Frigideira Tramontina Antiaderente Starflon",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.mercadolivre.com.br/cooktop-4-bocas-gas-electrolux-gt60x-inox/p/MLB11517227?pdp_filters=item_id%3AMLB5270870742&from=gshop&matt_tool=35737287&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090354499&matt_ad_group_id=173090613276&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727882733463&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735125422&matt_product_id=MLB11517227-product&matt_product_partition_id=2388138306710&matt_target_id=aud-1966489759667:pla-2388138306710&cq_src=google_ads&cq_cmp=22090354499&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090354499&gbraid=0AAAAAD93qcBmf4y9-mz_En7J_3MAtJsU0&gclid=Cj0KCQjwjo7DBhCrARIsACWauSn-ENZqiDspdn2e8KOQMzcqzNMP1tTjgFmUAZohpkZMtZFFCKS-wQAaAqWbEALw_wcB",
+    "title": "Cooktop 4 Bocas Gás Electrolux GT60X Inox",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://loja.electrolux.com.br/geladeira-electrolux-inverse-inverter-com-fresh-flex-488l-inox-look--ib55s-/p?idsku=310119065&gad_source=1&gad_campaignid=17419138477&gbraid=0AAAAADpuC9uO5oS5Is5-4hLLywevcMnPl&gclid=Cj0KCQjwjo7DBhCrARIsACWauSljAypt0S-d7OJrhqbLATVPBVoWUKT5pLNS6XnJXNLS1IQXykXZhwoaAlQ8EALw_wcB&gclsrc=aw.ds",
+    "title": "Geladeira Electrolux Inverse 488L Inox",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.mercadolivre.com.br/depurador-slim-de-embutir-60cm-de62ix-inox-suggar/p/MLB16077576?pdp_filters=item_id%3AMLB4898297094&from=gshop&matt_tool=35737287&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090354499&matt_ad_group_id=173090613076&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727882733457&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098639&matt_product_id=MLB16077576-product&matt_product_partition_id=2391272975703&matt_target_id=aud-1966489759667:pla-2391272975703&cq_src=google_ads&cq_cmp=22090354499&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090354499&gbraid=0AAAAAD93qcBmf4y9-mz_En7J_3MAtJsU0&gclid=Cj0KCQjwjo7DBhCrARIsACWauSm5gLJzZTE8QREIwpV2UXJ7HJLZskS5AmQT43qCjGaCxmBHY6uZeFkaAg6hEALw_wcB",
+    "title": "Depurador Slim Embutir 60cm Suggar Inox",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://loja.electrolux.com.br/micro-ondas-electrolux-prata-36l-efficient-me36s/p?idsku=310119202&gad_source=1&gad_campaignid=17419138477&gbraid=0AAAAADpuC9uO5oS5Is5-4hLLywevcMnPl&gclid=Cj0KCQjwjo7DBhCrARIsACWauSmSBF7V61bnUnaFYZderXnEFvQ-WGDmN0rmJfOZHlkINikaeY1C3asaAtB_EALw_wcB&gclsrc=aw.ds",
+    "title": "Micro-ondas Electrolux 36L Efficient ME36S",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://loja.electrolux.com.br/liquidificador-electrolux-700w-com-copo-de-vidro-tecnologia-truflow-experience-ebs30/p?idsku=310119104&gad_source=1&gad_campaignid=21359861688&gbraid=0AAAAADpuC9vOoklIk4_7CFqhskj3xx5in&gclid=Cj0KCQjwjo7DBhCrARIsACWauSmVQoMFQQ5qF34z9OyoOU_ngWS7TX2C5vUO_4fOP68vDWQHFBzfl9saAoV6EALw_wcB&gclsrc=aw.ds",
+    "title": "Liquidificador Electrolux 700W Copo Vidro",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://site.fastshop.com.br/processador-de-alimentos-3-em-1-electrolux-efficient-300w-com-02-velocidades---pulsar---efp500-exefp500pto_prd/p?utm_source=google&utm_medium=cpc&utm_term=pmax_1p&utm_campaign=17557564951&gad_source=1&gad_campaignid=17565279278&gclid=Cj0KCQjwjo7DBhCrARIsACWauSlFVsV8rZTuy-bHGN1vFgLW_YZu16pUkyNK6wmWaIxyN5PXlBtq2qsaAkTVEALw_wcB",
+    "title": "Processador Alimentos 3 em 1 Electrolux 300W",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://site.fastshop.com.br/mixer-3-em-1-electrolux-com-02-velocidades--capacidade-de-0-6-litros-e-funcao-turbo---eib10-exeib10cnz_prd/p?utm_source=google&utm_medium=cpc&utm_term=pmax_1p&utm_campaign=22291758369&gad_source=1&gad_campaignid=22298380526&gclid=Cj0KCQjwjo7DBhCrARIsACWauSm2QuJYu3oDk1MA6C0m5FDqmp1mXQutNHogF7471fC29a8jY4IZaaAaArBiEALw_wcB",
+    "title": "Mixer 3 em 1 Electrolux 0,6L com Turbo",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://loja.electrolux.com.br/batedeira-planetaria-electrolux-750w-cinza-experience-com-tigela-inox-5l--ekm40-/p?idsku=310119112&gad_source=1&gad_campaignid=21359861688&gbraid=0AAAAADpuC9vOoklIk4_7CFqhskj3xx5in&gclid=Cj0KCQjwjo7DBhCrARIsACWauSkcIzaQVoBJ8yqKE-RcTVmVAxmRuzZ-iaF3Yj4Am2FUYvjg2-pUdm8aAvlXEALw_wcB&gclsrc=aw.ds",
+    "title": "Batedeira Planetária Electrolux 750W 5L",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://loja.electrolux.com.br/air-fryer-oven-electrolux-por-rita-lobo-12l-digital-grafite-experience-1700w--eaf90-/p?skuId=310120388",
+    "title": "Air Fryer Oven Electrolux Rita Lobo 12L",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Electrolux-ECM30-Cafeteira/dp/B09CC2RYTZ/ref=asc_df_B09CC2RYTZ?mcid=70dd005b2104360db36e912ab469b337&tag=googleshopp00-20&linkCode=df0&hvadid=709886750320&hvpos=&hvnetw=g&hvrand=16783390052019148746&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-1431412750543&language=pt_BR&gad_source=1&th=1",
+    "title": "Cafeteira Electrolux ECM30",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://loja.electrolux.com.br/pe12g-pe12g-purif-agua-pelt-bivolt/p?idsku=2005159&gad_source=1&gad_campaignid=21359861688&gbraid=0AAAAADpuC9vOoklIk4_7CFqhskj3xx5in&gclid=Cj0KCQjwjo7DBhCrARIsACWauSmUBloKIddVpzScLaifBRM60SesQPctGZd1ak_eP-bnAKXI1JorrccaAmcoEALw_wcB&gclsrc=aw.ds",
+    "title": "Purificador Água Electrolux PE12G Bivolt",
+    "value": null,
+    "image-url": null
+  },
+  {
+    "url": "https://www.amazon.com.br/Churrasco-Pe%C3%A7as-Tramontina-22399028-Natural/dp/B008NKMWN2/ref=asc_df_B008NKMWN2?mcid=a95f73c7d59f3c4a8083261d6e4b40a2&tag=googleshopp00-20&linkCode=df0&hvadid=709857067623&hvpos=&hvnetw=g&hvrand=3734189054047578484&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198796&hvtargid=pla-457118995184&psc=1&language=pt_BR&gad_source=1",
+    "title": "Kit Churrasco Tramontina Cabo Natural",
+    "value": null,
+    "image-url": null
+  }
+]
