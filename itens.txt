@@ -370,5 +370,329 @@
     "title": "Kit Churrasco Tramontina Cabo Natural",
     "value": null,
     "image-url": null
-  }
+  },
+    {
+        "url": "https://s.shopee.com.br/2LObelj1U1",
+        "title": "Kit Lavabo Banheiro Luxo Preto",
+        "value": 78.9,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/2zey9NF",
+        "title": "Lixeira 5 Litros Aço Inox",
+        "value": 128.72,
+        "image-url": null
+    },
+    {
+        "url": "https://www.camicado.com.br/p/kit-toalhas-wave-4-pecas-100-algodao-450gm2/-/A-7010705573449-br.lc?sku=7510711942179",
+        "title": "Kit Toalhas Wave 4 Pecas",
+        "value": 0.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.karsten.com.br/jogo-de-banho-karsten-4-pecas-empire-cinza-urbano-3693067/p?idsku=82386",
+        "title": "Jogo de Banho 4 Peças Fio Cardado 100% Algodão Empire Urbano",
+        "value": 170.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.precolandia.com.br/cesto-de-roupas-grid-49l-chumbo-ou-017507/p?idsku=26281",
+        "title": "Cesto de Roupas Grid 49l Chumbo",
+        "value": 99.9,
+        "image-url": null
+    },
+    {
+        "url": "https://www.ou.com.br/products/escova-sanitaria-ou-linha-bold?variant=46344083210461",
+        "title": "Escova sanitária",
+        "value": 59.99,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/3qDPRqZdKY",
+        "title": "Kit Tapete Banheiro 40x60 Antiderrapante",
+        "value": 67.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.ou.com.br/products/kit-de-balde-e-bacia-ou-2-pecas-linha-flow?variant=46536198291677",
+        "title": "Kit de Balde e Bacia Ou 2 Peças Linha Flow",
+        "value": 67.89,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/15ykYV3",
+        "title": "Kit 120 Prendedor De Roupa De Madeira Pregador De Varal",
+        "value": 24.99,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/1BzXaED",
+        "title": "Varal Retrátil De Parede Mágico Pratico 69 Cm 4 Varetas",
+        "value": 99.9,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/7pjYDNODBI",
+        "title": "Varal de Chão Grande Dobrável com Rodinhas",
+        "value": 99.9,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/5ff3dRMRtH",
+        "title": "Kit 3 Dispenser Organizador de Lavanderia",
+        "value": 110.9,
+        "image-url": null
+    },
+    {
+        "url": "https://www.casasbahia.com.br/ferro-de-passar-a-vapor-e-a-seco-electrolux-experience-care-esi60-com-spray-base-ceramica-e-tecnologia-powervapour-azul-marinho-110v/p/55062225",
+        "title": "Ferro de Passar a Vapor e a Seco Electrolux Experience 110V",
+        "value": 215.9,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/9zo2nVcj51",
+        "title": "Kit vassoura rodo e pá",
+        "value": 209.99,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/AKQtCAVqUQ",
+        "title": "Kit 4 Pano de Chão Grande Mágico de Microfibra 60x70cm Cinza",
+        "value": 33.89,
+        "image-url": null
+    },
+    {
+        "url": "https://magazineluiza.onelink.me/589508454/mo307qlt",
+        "title": "Aspirador de Pó Portátil e Vertical Electrolux - 1100W STK12 Preto",
+        "value": 189.91,
+        "image-url": null
+    },
+    {
+        "url": "https://www.ou.com.br/collections/acessorios-de-limpeza/products/rodo-multiuso-ou-linha-flow?variant=46344035565789",
+        "title": "Rodo multiuso",
+        "value": 16.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.ou.com.br/products/kit-de-lavanderia-ou-4-pecas-linha-flow?variant=46536204157149",
+        "title": "Kit de Lavanderia - Bege",
+        "value": 97.99,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/1zcn2Aa",
+        "title": "Vittak Kit 50 Cabides Veludo De Roupa Antideslizante",
+        "value": 74.0,
+        "image-url": null
+    },
+    {
+        "url": "https://www.zelo.com.br/edredom-zelo-malha-premium-queen-100-algodao-fio-penteado-p1011586?pp=/44.3355/",
+        "title": "Edredom Zelo Malha Premium Queen - 100% Algodão - Fio Penteado - Chumbo",
+        "value": 335.9,
+        "image-url": null
+    },
+    {
+        "url": "https://www.riachuelo.com.br/kit-colcha-3-pecas-design-casa-riachuelo-15024547_sku_sku_queen_branco",
+        "title": "Kit colcha Design - QUEEN Branco",
+        "value": 299.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.riachuelo.com.br/kit-colcha-casal-4-pecas-design-washed-bordado-cinza-casa-riachuelo-15733122001_sku?sku=15733122001",
+        "title": "Kit colcha casal 4 peças Design Washed bordado cinza",
+        "value": 149.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.camicado.com.br/p/kit-cobre-leito-colcha-casal-3pc-dupla-face-ponto-cruz-300-fios-100-poliester/-/A-7010704104983-br.lc?sku=7510708426692",
+        "title": "Kit Cobre Leito Colcha Casal - Branco",
+        "value": 129.9,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/14yYj8q",
+        "title": "Kit Peseira Tricot Cama Casal Queen - Cinza",
+        "value": 112.64,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/14rVQK3",
+        "title": "Tapete Passadeira Boho Dupla Face - Palha",
+        "value": 51.21,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/2nD99WT",
+        "title": "Kit 4 Tapetes Algodão Alta Qualidade Boho Banheiro Porta - Palha",
+        "value": 103.11,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/2AoiMFK",
+        "title": "Kit Passadeira Cozinha - Cinza/Cru",
+        "value": 63.96,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/16wct5C",
+        "title": "Kit 2 Travesseiros Ergosoft - Branco",
+        "value": 67.42,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/1EKbwsM",
+        "title": "Ventilador de Mesa Super Turbo 8 Pás Mondial",
+        "value": 354.0,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/8AMOd2IgVs",
+        "title": "Kit 08 Porta Guardanapos",
+        "value": 75.9,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/2LObgMQTrd",
+        "title": "Jogo De Toalhas Banho Buddemeyer 4 Peças",
+        "value": 199.18,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/9AEvoyU3M1",
+        "title": "Kit Condimentos Cebola Alho",
+        "value": 134.9,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/3VaZ4cJDBY",
+        "title": "Espremedor De Limão",
+        "value": 17.11,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/qZntlS9Sf",
+        "title": "Queijeira - Café Mesa Posta",
+        "value": 96.99,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/50PMrVsGbz",
+        "title": "Açucareiro + Leiteira - Café Mesa Posta",
+        "value": 79.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/faqueiro-16-pecas-de-aco-inox-veneza-wolff",
+        "title": "Faqueiro 16 Peças de Aço Inox Veneza",
+        "value": 123.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/balde-para-gelo-de-vidro-com-alca-e-pegador-diamond-1l-lyor",
+        "title": "Balde para Gelo de Vidro com Alça e Pegador Diamond 1L",
+        "value": 45.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/kit-caipirinha-com-colher-bailarina-dosador-duplo-e-macerador-em-inox-wolff",
+        "title": "Kit Caipirinha",
+        "value": 43.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/coqueteleira-de-aco-inox-com-receitas-500ml-lyor",
+        "title": "Coqueteleira de Aço Inox",
+        "value": 35.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/saca-rolhas-de-inox-2-estagios-13cm-x-2cm-wolff",
+        "title": "Saca-Rolhas de Inox 2 Estágios",
+        "value": 13.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/conjunto-4-xicaras-de-cha-de-cristal-com-fio-de-ouro-imperio-220ml-wolff",
+        "title": "Conjunto 4 Xícaras de Chá de Cristal",
+        "value": 77.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/tapioqueira-de-inducao-em-aluminio-com-revestimento-ceramico-granilite-preta-22cm-wolff",
+        "title": "Tapioqueira de Indução em Alumínio",
+        "value": 84.99,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/pegador-para-carne-de-aco-inox-27-5cm-lyor",
+        "title": "Pegador para Carne",
+        "value": 26.0,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/322jqCv",
+        "title": "Kit 4 Descanso De Panela Silicone Protetor Antiaderente - Cinza",
+        "value": 24.14,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/descascador-de-legumes-de-aco-inox-e-plastico-preto-15cm-lyor",
+        "title": "Descascador de Legumes",
+        "value": 15.0,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/assadeira-redonda-antiaderente-de-aco-carbono-granilite-preta-35-5cm-x-2cm-lyor",
+        "title": "Assadeira Redonda Antiaderente",
+        "value": 48.0,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/cortador-de-pizza-em-liga-de-zinco-com-cabo-antiderrapante-chef-pro-18-5cm-wolff",
+        "title": "Cortador de Pizza",
+        "value": 41.0,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/forma-redonda-fundo-removivel-antiaderente-de-aco-carbono-granilite-preta-26cm-x-7cm-lyor",
+        "title": "Forma Redonda Fundo Removível Antiaderente",
+        "value": 93.0,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/colher-para-sorvete-com-cabo-antiderrapante-chef-pro-17cm-preto-liga-de-zinco-wolff",
+        "title": "Colher para Sorvete com Cabo Antiderrapante",
+        "value": 38.0,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/bandeja-retangular-de-mdf-com-fundo-trelica-31-5cm-x-4cm-x-21-5cm-lyor",
+        "title": "Bandeja Retangular",
+        "value": 60.0,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/vaso-de-vidro-lines-11cm-x-11cm-x-17-cm-wolff",
+        "title": "Vaso de Vidro Lines",
+        "value": 40.0,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/porta-retrato-de-mdf-10cm-x-15cm-lyor",
+        "title": "Porta-Retrato",
+        "value": 19.0,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/bandeja-decorativa-de-metal-dourada-36cm-x-20cm-x-5cm-wolff",
+        "title": "Bandeja Decorativa de Metal Dourada",
+        "value": 105.0,
+        "image-url": null
+    },
+    {
+        "url": "https://www.wolycasa.com.br/products/tapete-de-pvc-com-antiderrapante-para-banheiro-49cm-x-32cm-lyor",
+        "title": "Tapete de PVC com Antiderrapante",
+        "value": 32.0,
+        "image-url": null
+    }
 ]

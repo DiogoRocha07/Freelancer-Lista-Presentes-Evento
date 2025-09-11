@@ -1,6 +1,6 @@
 .main {
   min-height: 100vh;
-  background-color: #f7f7f7;
+  background-color: #f5f2ef;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,15 +12,17 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 10px;
+  color: #6B4F35;
 }
 
 .date {
   font-size: 1.2rem;
   margin-bottom: 20px;
+  color: #91725D;
 }
 
 .button{
-  background-color: #e91e63;
+  background-color: #91725D;
   color: white;
   border: none;
   padding: 14px 28px;
@@ -31,5 +33,5 @@
 }
 
 .button:hover {
-  background-color: #c2185b;
+  background-color: #6B4F35;
 }

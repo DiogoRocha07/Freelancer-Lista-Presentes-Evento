@@ -80,11 +80,11 @@ export default function Confirmacao() {
         body: JSON.stringify({
           name: form.nome,
           email: form.email,
-          phone: form.telefone,
+          phone: form.presenca === "sim" ? form.telefone : "",
           confirm: form.presenca === "sim",
-          count_adult: parseInt(form.adultos),
-          count_kid: parseInt(form.criancas),
-          gift_id: form.presente_id ? parseInt(form.presente_id) : null,
+          count_adult: form.presenca === "sim" ? parseInt(form.adultos) : 0,
+          count_kid: form.presenca === "sim" ? parseInt(form.criancas) : 0,
+          gift_id: form.presenca === "sim" && form.presente_id ? parseInt(form.presente_id) : null,
         }),
       });
 
@@ -103,7 +103,7 @@ export default function Confirmacao() {
         });
         
         // Emitir evento para atualizar a lista de presentes se um presente foi escolhido
-        if (form.presente_id) {
+        if (form.presente_id && form.presenca === "sim") {
           eventBus.emit(EVENTS.PRESENTE_SELECIONADO, parseInt(form.presente_id));
         }
       } else {
@@ -161,27 +161,31 @@ export default function Confirmacao() {
           </div>
         </div>
 
-        <label>
-          Quantidade de adultos incluindo você
-          <select name="adultos" value={form.adultos} onChange={handleChange}>
-            {[...Array(10).keys()].map((i) => (
-              <option key={i + 1} value={i + 1}>
-                {i + 1}
-              </option>
-            ))}
-          </select>
-        </label>
+        {form.presenca === "sim" && (
+          <>
+            <label>
+              Quantidade de adultos incluindo você
+              <select name="adultos" value={form.adultos} onChange={handleChange}>
+                {[...Array(10).keys()].map((i) => (
+                  <option key={i + 1} value={i + 1}>
+                    {i + 1}
+                  </option>
+                ))}
+              </select>
+            </label>
 
-        <label>
-          Quantidade de crianças
-          <select name="criancas" value={form.criancas} onChange={handleChange}>
-            {[...Array(11).keys()].map((i) => (
-              <option key={i} value={i}>
-                {i}
-              </option>
-            ))}
-          </select>
-        </label>
+            <label>
+              Quantidade de crianças
+              <select name="criancas" value={form.criancas} onChange={handleChange}>
+                {[...Array(11).keys()].map((i) => (
+                  <option key={i} value={i}>
+                    {i}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </>
+        )}
 
         <label>
           E-mail
@@ -194,87 +198,91 @@ export default function Confirmacao() {
           />
         </label>
 
-        <label>
-          Telefone para contato
-          <input
-            type="text"
-            name="telefone"
-            value={form.telefone}
-            onChange={handleChange}
-            required
-          />
-        </label>
+        {form.presenca === "sim" && (
+          <label>
+            Telefone para contato
+            <input
+              type="text"
+              name="telefone"
+              value={form.telefone}
+              onChange={handleChange}
+              required
+            />
+          </label>
+        )}
 
-        <label>
-          Presente (opcional)
-          <div className={styles.presenteContainer}>
-            <div className={styles.buscaWrapper}>
-              <input
-                type="text"
-                placeholder="Buscar presente..."
-                value={buscaPresente}
-                onChange={(e) => setBuscaPresente(e.target.value)}
-                className={styles.buscaPresenteInput}
-                disabled={loadingPresentes}
-              />
-              {buscaPresente && (
-                <button
-                  type="button"
-                  onClick={() => setBuscaPresente("")}
-                  className={styles.limparBusca}
+        {form.presenca === "sim" && (
+          <label>
+            Presente
+            <div className={styles.presenteContainer}>
+              <div className={styles.buscaWrapper}>
+                <input
+                  type="text"
+                  placeholder="Buscar presente..."
+                  value={buscaPresente}
+                  onChange={(e) => setBuscaPresente(e.target.value)}
+                  className={styles.buscaPresenteInput}
                   disabled={loadingPresentes}
-                >
-                  ✕
-                </button>
+                />
+                {buscaPresente && (
+                  <button
+                    type="button"
+                    onClick={() => setBuscaPresente("")}
+                    className={styles.limparBusca}
+                    disabled={loadingPresentes}
+                  >
+                    ✕
+                  </button>
+                )}
+              </div>
+              <select 
+                name="presente_id" 
+                value={form.presente_id} 
+                onChange={handleChange}
+                disabled={loadingPresentes}
+                className={styles.presenteSelect}
+              >
+                <option value="">Selecione o presente que você comprou</option>
+                {presentes
+                  .filter(presente => !presentesSelecionados.includes(presente.id))
+                  .filter(presente => 
+                    !buscaPresente.trim() || 
+                    presente.title.toLowerCase().includes(buscaPresente.toLowerCase()) ||
+                    presente.value?.toString().includes(buscaPresente)
+                  )
+                  .map((presente) => (
+                    <option key={presente.id} value={presente.id}>
+                      {presente.title} - R$ {presente.value?.toFixed(2) || '0.00'}
+                    </option>
+                  ))}
+              </select>
+              {loadingPresentes && <small>Carregando presentes...</small>}
+              {presentesSelecionados.length > 0 && (
+                <small style={{ color: '#666', fontStyle: 'italic' }}>
+                  {presentesSelecionados.length} presente(s) já selecionado(s) não aparecem na lista
+                </small>
+              )}
+              {buscaPresente && (
+                <small style={{ color: '#666', fontStyle: 'italic' }}>
+                  {(() => {
+                    const presentesFiltrados = presentes
+                      .filter(presente => !presentesSelecionados.includes(presente.id))
+                      .filter(presente => 
+                        presente.title.toLowerCase().includes(buscaPresente.toLowerCase()) ||
+                        presente.value?.toString().includes(buscaPresente)
+                      );
+                    
+                    if (presentesFiltrados.length === 0) {
+                      return "Nenhum presente encontrado com essa busca";
+                    }
+                    
+                    return `${presentesFiltrados.length} presente(s) encontrado(s)`;
+                  })()}
+                </small>
               )}
             </div>
-            <select 
-              name="presente_id" 
-              value={form.presente_id} 
-              onChange={handleChange}
-              disabled={loadingPresentes}
-              className={styles.presenteSelect}
-            >
-              <option value="">Selecione um presente (opcional)</option>
-              {presentes
-                .filter(presente => !presentesSelecionados.includes(presente.id))
-                .filter(presente => 
-                  !buscaPresente.trim() || 
-                  presente.title.toLowerCase().includes(buscaPresente.toLowerCase()) ||
-                  presente.value?.toString().includes(buscaPresente)
-                )
-                .map((presente) => (
-                  <option key={presente.id} value={presente.id}>
-                    {presente.title} - R$ {presente.value?.toFixed(2) || '0.00'}
-                  </option>
-                ))}
-            </select>
-            {loadingPresentes && <small>Carregando presentes...</small>}
-            {presentesSelecionados.length > 0 && (
-              <small style={{ color: '#666', fontStyle: 'italic' }}>
-                {presentesSelecionados.length} presente(s) já selecionado(s) não aparecem na lista
-              </small>
-            )}
-            {buscaPresente && (
-              <small style={{ color: '#666', fontStyle: 'italic' }}>
-                {(() => {
-                  const presentesFiltrados = presentes
-                    .filter(presente => !presentesSelecionados.includes(presente.id))
-                    .filter(presente => 
-                      presente.title.toLowerCase().includes(buscaPresente.toLowerCase()) ||
-                      presente.value?.toString().includes(buscaPresente)
-                    );
-                  
-                  if (presentesFiltrados.length === 0) {
-                    return "Nenhum presente encontrado com essa busca";
-                  }
-                  
-                  return `${presentesFiltrados.length} presente(s) encontrado(s)`;
-                })()}
-              </small>
-            )}
-          </div>
-        </label>
+          </label>
+        )}
 
         <button type="submit" disabled={loading}>
           {loading ? "Enviando..." : "Confirmar presença"}

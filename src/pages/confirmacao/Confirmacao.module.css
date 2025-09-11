@@ -1,31 +1,34 @@
 .container {
-  max-width: 600px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
+  background-color: #f5f2ef;
 }
 
 .title {
   text-align: center;
   font-family: "Cormorant Garamond", serif;
   font-size: 2rem;
-  color: #4a503d;
+  color: #6B4F35;
 }
 
 .subtitle {
   text-align: center;
   font-size: 0.9rem;
-  color: #555;
+  color: #91725D;
   margin-bottom: 1rem;
 }
 
 .form {
-  background: #fafafa;
-  border: 1px solid #e0e0e0;
+  background: #f5f2ef;
+  border: 1px solid #d4c4b8;
   padding: 2rem;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .form label {
@@ -34,14 +37,23 @@
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+  color: #6B4F35;
 }
 
 .form input,
 .form select {
   padding: 0.7rem;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #d4c4b8;
   font-size: 1rem;
+  color: #6B4F35;
+  background-color: #fff;
+}
+
+.form input:focus,
+.form select:focus {
+  outline: none;
+  border-color: #91725D;
 }
 
 .radioGroup {
@@ -57,10 +69,28 @@
 
 .radioGroup label {
   font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.radioGroup label:hover {
+  background-color: #fff;
+}
+
+.radioGroup input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  cursor: pointer;
 }
 
 .form button {
-  background-color: #6a754a;
+  background-color: #91725D;
   color: white;
   padding: 0.9rem;
   border: none;
@@ -71,7 +101,7 @@
 }
 
 .form button:hover {
-  background-color: #5c6640;
+  background-color: #6B4F35;
 }
 
 .form button:disabled {
@@ -114,15 +144,16 @@
 .buscaPresenteInput {
   padding: 0.7rem;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #d4c4b8;
   font-size: 1rem;
   background-color: #fff;
   transition: border 0.2s ease;
+  color: #6B4F35;
 }
 
 .buscaPresenteInput:focus {
   outline: none;
-  border-color: #6a754a;
+  border-color: #91725D;
 }
 
 .buscaPresenteInput:disabled {
@@ -133,15 +164,16 @@
 .presenteSelect {
   padding: 0.7rem;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #d4c4b8;
   font-size: 1rem;
   background-color: #fff;
   transition: border 0.2s ease;
+  color: #6B4F35;
 }
 
 .presenteSelect:focus {
   outline: none;
-  border-color: #6a754a;
+  border-color: #91725D;
 }
 
 .presenteSelect:disabled {
@@ -168,11 +200,146 @@
 }
 
 .limparBusca:hover {
-  background-color: #f0f0f0;
-  color: #666;
+  background-color: #fff;
+  color: #91725D;
 }
 
 .limparBusca:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .subtitle {
+    font-size: 0.85rem;
+  }
+  
+  .form {
+    padding: 1.5rem;
+    gap: 0.8rem;
+  }
+  
+  .form label {
+    font-size: 0.85rem;
+  }
+  
+  .form input,
+  .form select,
+  .buscaPresenteInput,
+  .presenteSelect {
+    padding: 0.6rem;
+    font-size: 0.95rem;
+  }
+  
+  .radioGroup div {
+    gap: 0.8rem;
+  }
+  
+  .radioGroup label {
+    padding: 0.4rem;
+    font-size: 0.9rem;
+  }
+  
+  .radioGroup input[type="radio"] {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .form button {
+    padding: 0.8rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 1.6rem;
+  }
+  
+  .subtitle {
+    font-size: 0.8rem;
+  }
+  
+  .form {
+    padding: 1.2rem;
+    gap: 0.7rem;
+  }
+  
+  .form label {
+    font-size: 0.8rem;
+  }
+  
+  .form input,
+  .form select,
+  .buscaPresenteInput,
+  .presenteSelect {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .radioGroup div {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .radioGroup label {
+    padding: 0.3rem;
+    font-size: 0.85rem;
+    min-height: auto;
+  }
+  
+  .radioGroup input[type="radio"] {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .form button {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+  
+  .success,
+  .error {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 0.8rem;
+  }
+  
+  .title {
+    font-size: 1.4rem;
+  }
+  
+  .form {
+    padding: 1rem;
+  }
+  
+  .form input,
+  .form select,
+  .buscaPresenteInput,
+  .presenteSelect {
+    font-size: 0.85rem;
+  }
+  
+  .radioGroup label {
+    font-size: 0.8rem;
+  }
 }

@@ -8,9 +8,6 @@ export default function Home() {
   return (
     <>
       <Header />
-
-      <div style={{ height: "80px" }} />
-
       <Hero />
       <Local />
       <Presentes />

@@ -1,19 +1,20 @@
 .hero {
-    padding: 40px 20px;
+    padding: 80px 20px 40px 20px;
     text-align: center;
+    background-color: #f5f2ef;
 }
 
 .title {
     font-size: 2.5rem;
     font-weight: 500;
-    color: #3a3a3a;
+    color: #6B4F35;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 .date{
     font-size: 1rem;
-    color: #777;
+    color: #91725D;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
@@ -25,7 +26,95 @@
     flex-wrap: wrap;
 }
 
-.gallery img{
+.galleryImage{
     border-radius: 8px;
     object-fit: cover;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+    .hero {
+        padding: 120px 15px 30px 15px;
+    }
+    
+    .title {
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+    
+    .date {
+        font-size: 0.9rem;
+        margin-bottom: 25px;
+    }
+    
+    .gallery {
+        gap: 15px;
+    }
+    
+    .galleryImage {
+        width: 280px !important;
+        height: auto !important;
+    }
+    
+    /* Ocultar segunda e terceira imagens em mobile */
+    .galleryImage:nth-child(2),
+    .galleryImage:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 110px 10px 25px 10px;
+    }
+    
+    .title {
+        font-size: 1.8rem;
+        margin-bottom: 6px;
+    }
+    
+    .date {
+        font-size: 0.85rem;
+        margin-bottom: 20px;
+    }
+    
+    .gallery {
+        gap: 10px;
+    }
+    
+    .galleryImage {
+        width: 250px !important;
+        height: auto !important;
+    }
+    
+    /* Ocultar segunda e terceira imagens em mobile */
+    .galleryImage:nth-child(2),
+    .galleryImage:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero {
+        padding: 105px 8px 20px 8px;
+    }
+    
+    .title {
+        font-size: 1.5rem;
+    }
+    
+    .date {
+        font-size: 0.8rem;
+    }
+    
+    .galleryImage {
+        width: 220px !important;
+        height: auto !important;
+    }
+    
+    /* Ocultar segunda e terceira imagens em mobile */
+    .galleryImage:nth-child(2),
+    .galleryImage:nth-child(3) {
+        display: none;
+    }
 }

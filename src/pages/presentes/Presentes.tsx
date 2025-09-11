@@ -9,10 +9,11 @@ export default function Presentes() {
   const [lista, setLista] = useState<Presente[]>([]);
   const [listaOriginal, setListaOriginal] = useState<Presente[]>([]);
   const { presentesSelecionados, loading: loadingSelecionados } = usePresentesSelecionados();
-  const [filtro, setFiltro] = useState("maior-preco");
+  const [filtro, setFiltro] = useState("A-Z");
   const [busca, setBusca] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [presentesExibidos, setPresentesExibidos] = useState(15);
 
   useEffect(() => {
     fetchPresentes();
@@ -67,7 +68,16 @@ export default function Presentes() {
     }
 
     setLista(newLista);
+    // Reset paginação quando mudar filtro ou busca
+    setPresentesExibidos(15);
   }, [filtro, busca, listaOriginal]);
+
+  const carregarMaisPresentes = () => {
+    setPresentesExibidos(prev => prev + 15);
+  };
+
+  const presentesParaExibir = lista.slice(0, presentesExibidos);
+  const temMaisPresentes = presentesExibidos < lista.length;
 
   if (loading) {
     return (
@@ -101,6 +111,8 @@ export default function Presentes() {
           item é vendido. Após realizar a compra, leve o presente com você no
           dia da festa. Assim teremos um momento ainda mais especial juntos!
         </p>
+
+        <p className={styles.subtitle}>Você terá que confirmar que sua presença e colocar o presente que comprou. O casal não irá saber o presente que você comprou.</p>
       </div>
 
       <div className={styles.filtroContainer}>
@@ -144,8 +156,8 @@ export default function Presentes() {
       </div>
 
       <div className={styles.grid}>
-        {lista.length > 0 ? (
-          lista.map((gift) => {
+        {presentesParaExibir.length > 0 ? (
+          presentesParaExibir.map((gift) => {
             const isEsgotado = presentesSelecionados.includes(gift.id);
             return (
               <div key={gift.id} className={`${styles.card} ${isEsgotado ? styles.esgotado : ''}`}>
@@ -156,7 +168,6 @@ export default function Presentes() {
                     width={280}
                     height={280}
                     className={styles.cardImage}
-                    style={{ objectFit: 'cover' }}
                   />
                 </div>
                 <div className={styles.cardContent}>
@@ -192,6 +203,17 @@ export default function Presentes() {
           </div>
         )}
       </div>
+
+      {temMaisPresentes && (
+        <div className={styles.loadMoreContainer}>
+          <button 
+            onClick={carregarMaisPresentes}
+            className={styles.loadMoreButton}
+          >
+            Ver mais presentes
+          </button>
+        </div>
+      )}
     </section>
   );
 }
