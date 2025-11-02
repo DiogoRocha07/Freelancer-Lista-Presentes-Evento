@@ -9,15 +9,15 @@ export default function Hero() {
 
       <div className={styles.gallery}>
         <Image
-          src="/images/jenny 4.jpg"
-          alt="foto1"
+          src="/images/jenny 2.jpg"
+          alt="foto2"
           width={350}
           height={430}
           className={styles.galleryImage}
         />
         <Image
-          src="/images/jenny 2.jpg"
-          alt="foto2"
+          src="/images/jenny 4.jpg"
+          alt="foto1"
           width={350}
           height={430}
           className={styles.galleryImage}
