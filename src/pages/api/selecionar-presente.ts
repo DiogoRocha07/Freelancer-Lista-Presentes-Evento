@@ -20,6 +20,7 @@ export default async function handler(
   if (req.method !== "POST") {
     return res.status(405).json({ 
       success: false, 
+      message: "Method not allowed",
       error: "Method not allowed" 
     });
   }
@@ -33,6 +34,7 @@ export default async function handler(
     if (!name || !phone || !gift_id) {
       return res.status(400).json({ 
         success: false, 
+        message: "Nome, telefone e ID do presente são obrigatórios",
         error: "Nome, telefone e ID do presente são obrigatórios" 
       });
     }
@@ -51,6 +53,7 @@ export default async function handler(
     if (existingSelections && existingSelections.length > 0) {
       return res.status(400).json({ 
         success: false, 
+        message: "Este presente já foi selecionado por outro convidado",
         error: "Este presente já foi selecionado por outro convidado" 
       });
     }
@@ -75,6 +78,7 @@ export default async function handler(
       console.error("Erro ao salvar seleção de presente:", error);
       return res.status(500).json({ 
         success: false, 
+        message: "Erro ao salvar seleção de presente",
         error: "Erro ao salvar seleção de presente" 
       });
     }
@@ -87,6 +91,7 @@ export default async function handler(
     console.error("Erro interno:", error);
     return res.status(500).json({ 
       success: false, 
+      message: "Erro interno do servidor",
       error: "Erro interno do servidor" 
     });
   }
