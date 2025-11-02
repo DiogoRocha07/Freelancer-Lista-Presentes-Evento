@@ -6,6 +6,7 @@ export interface ConfirmacaoForm {
   email: string;
   telefone: string;
   presente_id: string;
+  presentes_ids: number[];
 }
 
 export interface ConfirmacaoData {
@@ -16,6 +17,7 @@ export interface ConfirmacaoData {
   count_adult: number;
   count_kid: number;
   gift_id: number | null;
+  gifts_ids: number[];
 }
 
 export interface ConfirmacaoResponse {

@@ -7,11 +7,34 @@ export default function Local() {
 
       <div className={styles.addressContainer}>
         <p className={styles.subtitle}>
-          Será uma tarde gostosa e cheia de amor com almoço oferecido pelo casal
-          e contamos com a sua ajuda para trazer sua bebida alcoólica de
-          preferência! Dia 13 de Dezembro de 2025, às 14 horas
+          Cada nova fase merece ser celebrada com quem faz parte da nossa
+          história. Por isso, será uma alegria ter você conosco nesse momento
+          tão especial.
         </p>
+        <p className={styles.subtitle}>
+          Preparamos esse dia com muito carinho: terá feijoada, chopp gelado,
+          drinks e muito samba para fazer a gente celebrar do jeito que
+          gostamos!
+        </p>
+       {/* <p className={styles.subtitle}>
+          Se desejar nos presentear, ficaremos muito felizes em receber o
+          presente no dia do chá, e não se esqueça de selecionar o presente
+          escolhido para que outra pessoa não compre o mesmo. Mas, se for mais
+          prático para você, também disponibilizaremos a opção de contribuição
+          via Pix — o importante é compartilhar esse dia ao seu lado.
+        </p> */}
+        <p className={styles.subtitle}>
+          E pedimos, com carinho, que confirme sua presença para que possamos
+          organizar tudo da melhor forma.
+        </p>
+        <p className={styles.subtitle}>
+          Estamos esperando por você ✨🤎 Será lindo viver esse momento juntos.
+        </p>
+        <p className={styles.subtitle}>Com amor, Jenny e Giovanni.</p>
 
+        <p className={styles.subtitle}>
+          Dia 13 de Dezembro de 2025, às 13 horas
+        </p>
         <p className={styles.address}>
           Rua Lucas de Leyde, 16 - Rio Pequeno, São Paulo
         </p>

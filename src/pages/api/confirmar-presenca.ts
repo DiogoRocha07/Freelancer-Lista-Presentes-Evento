@@ -11,9 +11,9 @@ export default async function handler(
   }
 
   try {
-    const { name, email, phone, confirm, count_adult, count_kid, gift_id }: ConfirmacaoData = req.body;
+    const { name, email, phone, confirm, count_adult, count_kid, gift_id, gifts_ids }: ConfirmacaoData = req.body;
 
-    console.log("Dados recebidos:", { name, email, phone, confirm, count_adult, count_kid, gift_id });
+    console.log("Dados recebidos:", { name, email, phone, confirm, count_adult, count_kid, gift_id, gifts_ids });
 
     // Validar dados obrigatórios
     if (!name || !email || !phone) {
@@ -29,6 +29,7 @@ export default async function handler(
       count_adult,
       count_kid,
       gift_id,
+      gifts_ids: gifts_ids || [],
     };
 
     console.log("Dados para inserção:", insertData);

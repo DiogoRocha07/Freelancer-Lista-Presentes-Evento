@@ -20,8 +20,8 @@ export default function Header() {
           <li><Link href="/">Home</Link></li>
           <li><Link href="#local">Local</Link></li>
           <li><Link href="#presentes">Lista de Presentes</Link></li>
-          <li><Link href="#confirmacao">Confirme sua Presença</Link></li>
-          <li><Link href="#recados">Recados</Link></li>
+          {/* <li><Link href="#confirmacao">Confirme sua Presença</Link></li> */}
+          {/* <li><Link href="#recados">Recados</Link></li> */}
         </ul>
         
         <button 
@@ -38,8 +38,8 @@ export default function Header() {
           <li><Link href="/" onClick={closeMobileMenu}>Home</Link></li>
           <li><Link href="#local" onClick={closeMobileMenu}>Local</Link></li>
           <li><Link href="#presentes" onClick={closeMobileMenu}>Lista de Presentes</Link></li>
-          <li><Link href="#confirmacao" onClick={closeMobileMenu}>Confirme sua Presença</Link></li>
-          <li><Link href="#recados" onClick={closeMobileMenu}>Recados</Link></li>
+          {/* <li><Link href="#confirmacao" onClick={closeMobileMenu}>Confirme sua Presença</Link></li> */}
+          {/* <li><Link href="#recados" onClick={closeMobileMenu}>Recados</Link></li> */}
         </ul>
       </div>
     </header>

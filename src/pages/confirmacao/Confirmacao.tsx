@@ -15,6 +15,7 @@ export default function Confirmacao() {
     email: "",
     telefone: "",
     presente_id: "",
+    presentes_ids: [],
   });
 
   const [loading, setLoading] = useState(false);
@@ -22,6 +23,7 @@ export default function Confirmacao() {
   const [presentes, setPresentes] = useState<Presente[]>([]);
   const [loadingPresentes, setLoadingPresentes] = useState(true);
   const [buscaPresente, setBuscaPresente] = useState("");
+  const [dropdownAberto, setDropdownAberto] = useState(false);
   const { presentesSelecionados } = usePresentesSelecionados();
 
   // Carregar lista de presentes
@@ -66,6 +68,38 @@ export default function Confirmacao() {
     }
   };
 
+  const handlePresenteToggle = (presenteId: number) => {
+    setForm((prev) => {
+      const isSelected = prev.presentes_ids.includes(presenteId);
+      if (isSelected) {
+        return {
+          ...prev,
+          presentes_ids: prev.presentes_ids.filter(id => id !== presenteId)
+        };
+      } else {
+        return {
+          ...prev,
+          presentes_ids: [...prev.presentes_ids, presenteId]
+        };
+      }
+    });
+  };
+
+  const toggleDropdown = () => {
+    setDropdownAberto(!dropdownAberto);
+  };
+
+  const getTextoDropdown = () => {
+    if (form.presentes_ids.length === 0) {
+      return "Selecione os presentes que você comprou";
+    } else if (form.presentes_ids.length === 1) {
+      const presente = presentes.find(p => p.id === form.presentes_ids[0]);
+      return presente ? presente.title : "1 presente selecionado";
+    } else {
+      return `${form.presentes_ids.length} presentes selecionados`;
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
@@ -85,6 +119,7 @@ export default function Confirmacao() {
           count_adult: form.presenca === "sim" ? parseInt(form.adultos) : 0,
           count_kid: form.presenca === "sim" ? parseInt(form.criancas) : 0,
           gift_id: form.presenca === "sim" && form.presente_id ? parseInt(form.presente_id) : null,
+          gifts_ids: form.presenca === "sim" ? form.presentes_ids : [],
         }),
       });
 
@@ -100,9 +135,15 @@ export default function Confirmacao() {
           email: "",
           telefone: "",
           presente_id: "",
+          presentes_ids: [],
         });
         
-        // Emitir evento para atualizar a lista de presentes se um presente foi escolhido
+        // Emitir evento para atualizar a lista de presentes se presentes foram escolhidos
+        if (form.presentes_ids.length > 0 && form.presenca === "sim") {
+          form.presentes_ids.forEach(presenteId => {
+            eventBus.emit(EVENTS.PRESENTE_SELECIONADO, presenteId);
+          });
+        }
         if (form.presente_id && form.presenca === "sim") {
           eventBus.emit(EVENTS.PRESENTE_SELECIONADO, parseInt(form.presente_id));
         }
@@ -235,41 +276,14 @@ export default function Confirmacao() {
                   </button>
                 )}
               </div>
-              <select 
-                name="presente_id" 
-                value={form.presente_id} 
-                onChange={handleChange}
-                disabled={loadingPresentes}
-                className={styles.presenteSelect}
-              >
-                <option value="">Selecione o presente que você comprou</option>
-                {presentes
-                  .filter(presente => !presentesSelecionados.includes(presente.id))
-                  .filter(presente => 
-                    !buscaPresente.trim() || 
-                    presente.title.toLowerCase().includes(buscaPresente.toLowerCase()) ||
-                    presente.value?.toString().includes(buscaPresente)
-                  )
-                  .map((presente) => (
-                    <option key={presente.id} value={presente.id}>
-                      {presente.title} - R$ {presente.value?.toFixed(2) || '0.00'}
-                    </option>
-                  ))}
-              </select>
-              {loadingPresentes && <small>Carregando presentes...</small>}
-              {presentesSelecionados.length > 0 && (
-                <small style={{ color: '#666', fontStyle: 'italic' }}>
-                  {presentesSelecionados.length} presente(s) já selecionado(s) não aparecem na lista
-                </small>
-              )}
+              
               {buscaPresente && (
-                <small style={{ color: '#666', fontStyle: 'italic' }}>
+                <div className={styles.contadorBusca}>
                   {(() => {
                     const presentesFiltrados = presentes
                       .filter(presente => !presentesSelecionados.includes(presente.id))
                       .filter(presente => 
-                        presente.title.toLowerCase().includes(buscaPresente.toLowerCase()) ||
-                        presente.value?.toString().includes(buscaPresente)
+                        presente.title.toLowerCase().includes(buscaPresente.toLowerCase())
                       );
                     
                     if (presentesFiltrados.length === 0) {
@@ -278,7 +292,92 @@ export default function Confirmacao() {
                     
                     return `${presentesFiltrados.length} presente(s) encontrado(s)`;
                   })()}
-                </small>
+                </div>
+              )}
+              
+              <div className={styles.dropdownWrapper}>
+                <div 
+                  className={styles.dropdownTrigger}
+                  onClick={toggleDropdown}
+                  onBlur={(e) => {
+                    // Delay para permitir cliques nos checkboxes
+                    setTimeout(() => setDropdownAberto(false), 150);
+                  }}
+                >
+                  <span className={styles.dropdownText}>
+                    {getTextoDropdown()}
+                  </span>
+                  <span className={`${styles.dropdownArrow} ${dropdownAberto ? styles.dropdownArrowOpen : ''}`}>
+                    ▼
+                  </span>
+                </div>
+                
+                {dropdownAberto && (
+                  <div className={styles.dropdownContent}>
+                    <div className={styles.presentesList}>
+                      {loadingPresentes ? (
+                        <div className={styles.loadingMessage}>Carregando presentes...</div>
+                      ) : (
+                        presentes
+                          .filter(presente => !presentesSelecionados.includes(presente.id))
+                          .filter(presente => 
+                            !buscaPresente.trim() || 
+                            presente.title.toLowerCase().includes(buscaPresente.toLowerCase())
+                          )
+                          .map((presente) => (
+                            <div 
+                              key={presente.id} 
+                              className={`${styles.presenteItem} ${form.presentes_ids.includes(presente.id) ? styles.presenteItemSelecionado : ''}`}
+                              onClick={() => handlePresenteToggle(presente.id)}
+                            >
+                              <span className={styles.presenteInfo}>
+                                {presente.title}
+                              </span>
+                            </div>
+                          ))
+                      )}
+                    </div>
+                    
+                    {presentesSelecionados.length > 0 && (
+                      <div className={styles.infoMessage}>
+                        {presentesSelecionados.length} presente(s) já selecionado(s) por outros convidados não aparecem na lista
+                      </div>
+                    )}
+                    {buscaPresente && (
+                      <div className={styles.infoMessage}>
+                        {(() => {
+                          const presentesFiltrados = presentes
+                            .filter(presente => !presentesSelecionados.includes(presente.id))
+                            .filter(presente => 
+                              presente.title.toLowerCase().includes(buscaPresente.toLowerCase())
+                            );
+                          
+                          if (presentesFiltrados.length === 0) {
+                            return "Nenhum presente encontrado com essa busca";
+                          }
+                          
+                          return `${presentesFiltrados.length} presente(s) encontrado(s)`;
+                        })()}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+              
+              {form.presentes_ids.length > 0 && (
+                <div className={styles.presentesSelecionados}>
+                  <strong>Presentes selecionados:</strong>
+                  <ul>
+                    {form.presentes_ids.map(id => {
+                      const presente = presentes.find(p => p.id === id);
+                      return presente ? (
+                        <li key={id}>
+                          {presente.title}
+                        </li>
+                      ) : null;
+                    })}
+                  </ul>
+                </div>
               )}
             </div>
           </label>

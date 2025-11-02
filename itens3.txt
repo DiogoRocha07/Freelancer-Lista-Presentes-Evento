@@ -1,0 +1,428 @@
+[
+    {
+        "url": "https://amzn.to/4nluHgK",
+        "title": "Tramontina Jogo 12 Peças Churrasco Inox Polywood Vermelho",
+        "value": 140.51,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/47oLTfz",
+        "title": "Conjunto de 5 Peças, Jogo de Facas",
+        "value": 104.99,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/6AcbQgwx9Y",
+        "title": "Jogo de 6 Copos Altos 420ml Borda Dourada Vidro Canelado",
+        "value": 117.88,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/8pdMbgbZuR",
+        "title": "Conjunto 6 Xicaras Com Pires Porcelana Branca - MODELO 1",
+        "value": 79.00,
+        "image-url": null
+    },
+    {
+        "url": "https://divulgador.magalu.com/X2Fu7rcd",
+        "title": "Jogo de Panelas Brinox Revestimento Cerâmico de Alumínio Preto 5 Peças Carbon Ceramic Life",
+        "value": 538.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4osMWBN",
+        "title": "Escorredor de Louça Tramontina Plurale em Aço Inox e Polipropileno com Bandeja",
+        "value": 158.90,
+        "image-url": null
+    },
+    {
+        "url": "https://www.precolandia.com.br/leiteira-com-revestimento-ceramico-aruja-preta-14cm-meridional-595527/p?idsku=5177&gad_source=1&gad_campaignid=21278033030&gbraid=0AAAAAD10eZxqpF04T9juDs9wY3YxyRbjK&gclid=CjwKCAjwmNLHBhA4EiwA3ts3md86yaAVQqzXnxIHM4MMkByTQbOsVaN6Ol689VmjFW-GGfov3zTBsxoClkcQAvD_BwE",
+        "title": "Leiteira com Revestimento Cerâmico Arujá Preta 14cm - Meridional",
+        "value": 89.90,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/24DuABC",
+        "title": "Kit Abridor De Vinho Elétrico",
+        "value": 39.90,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/11y5ip8jB",
+        "title": "Kit 4 Organizador de Geladeira 3,8 Litros",
+        "value": 99.90,
+        "image-url": null
+    },
+    {
+        "url": "https://www.precolandia.com.br/molheira-de-cristal-seul-180ml-lyor-033480/p?idsku=31003&gad_source=1&gad_campaignid=21278033030&gbraid=0AAAAAD10eZxqpF04T9juDs9wY3YxyRbjK&gclid=CjwKCAjwmNLHBhA4EiwA3ts3meJXyO4pFDxvKjGpSjokliesAwnqZHx6mvZN0HZmYIiY4Bd7LSUgQBoCTzgQAvD_BwE",
+        "title": "Molheira de Cristal Seul 180mL - Lyor",
+        "value": 16.90,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/2KbE1Me",
+        "title": "Fogão Cooktop Com Alimentação Gás - Electrolux Inox E Preto",
+        "value": 1669.00,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4hpFhlt",
+        "title": "Suggar Depurador de AR Slim de embutir 60cm Frontal INOX 110V",
+        "value": 720.34,
+        "image-url": null
+    },
+    {
+        "url": "https://www.telhanorte.com.br/lixeira-inox-5l-retangular-preta-com-pedal-coisas-e-coisinhas--2549905/p?idsku=2549905&utm_source=google&utm_medium=cpc&utm_campaign=PMAX_2023_TELHANORTE_ORGANIZACAO-DA-CASA&utm_term=&gad_source=1&gad_campaignid=17243845607&gbraid=0AAAAADo_HJXXsaDRh-oLrWzCa4dwYIhW1&gclid=CjwKCAjwmNLHBhA4EiwA3ts3mSpku3jQ0vg_q6na4u__eZky1t1MnzhY8E4lm8UQx4lmnvP4rGhpyBoCjfwQAvD_BwE",
+        "title": "Lixeira Inox 5L Retangular Preta Com Pedal",
+        "value": 99.90,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/1rb56rN",
+        "title": "Kit Toalhas Wave 4 Peças 100% Algodão 450g/m² Macia - Cinza e Azul",
+        "value": 119.90,
+        "image-url": null
+    },
+    {
+        "url": "https://loja.electrolux.com.br/aspirador-de-po-vertical-1100w-electrolux-2-em-1-filtro-hepa-cabo-eletrico-5m--stk13a-/p?gad_campaignid=22850534287&gad_source=1&gbraid=0AAAAADpuC9uqAR7Mo67LOdtxjQoZ37_dc&gclid=CjwKCAjwmNLHBhA4EiwA3ts3mXaL0IHsdvFehnSf3VSdL-MeD1HCCqzAwHP8pzsYLGta_9ULugmx6xoCSacQAvD_BwE&gclsrc=aw.ds&idsku=310118498&skuId=310118498",
+        "title": "Aspirador de Pó Vertical com Fio Electrolux 1100W 110V",
+        "value": 169.90,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/2DKjvpk",
+        "title": "Kit Coqueteleira 5 Peças Inox Cor Prateado",
+        "value": 40.82,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/2vuJm7H",
+        "title": "Saca Rolhas/abridor De Garrafas Brinox Cor Preto",
+        "value": 23.39,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/2q1FHJn",
+        "title": "Ventilador Teto Retrátil Led Flesh Wind - Branco",
+        "value": 694.20,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/5pzl3C5Y06",
+        "title": "Jogo De 6 Canecas Chopp 320ml",
+        "value": 37.90,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/3LIQ4dEG01",
+        "title": "2 Peças para Bolo Viena Aço Inox Wolff",
+        "value": 95.90,
+        "image-url": null
+    },
+    {
+        "url": "https://www.oxfordporcelanas.com.br/conjunto-tigela-500-ml-ryo-maresia/p",
+        "title": "Jogo de 6 Tigelas 500 ml Ryo Maresia",
+        "value": 229.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4oAiNRb",
+        "title": "Stolf Rolo Para Massa de Madeira - Cor Natural da Madeira",
+        "value": 22.24,
+        "image-url": null
+    },
+    {
+        "url": "https://www.riachuelo.com.br/cortina-blackout-voil-1-70x2-60m-casa-riachuelo-15603733_sku_sku_cinza?sku=15603750001&gad_source=4&gad_campaignid=17162640194&gbraid=0AAAAADr2JayzZblKexWFjHfN4mipT53fh&gclid=EAIaIQobChMIsdzflPWhkAMVdkFIAB20wCBDEAQYASABEgJvgfD_BwE",
+        "title": "Cortina blackout Voil 1,70x2,60m - Cinza | Casa Riachuelo",
+        "value": 89.99,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/AA8kDRUa3P",
+        "title": "Caminho de Mesa Artesanal - 34x100cm - Cor: CRU",
+        "value": 47.40,
+        "image-url": null
+    },
+    {
+        "url": "https://www.carrefour.com.br/microondas-electrolux-31-litros-inox-espelhado-com-painel-integrado-funcao-tira-odor-e-receitas-mi41s-127v-9966730/p",
+        "title": "Micro-ondas Electrolux 31 Litros Inox Espelhado com Painel Integrado 127V",
+        "value": 799.00,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/2Upzroj",
+        "title": "Jogo De Potes Tramontina Mixcolor 10 Cor Algodão",
+        "value": 109.13,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4oAjJ89",
+        "title": "Espremedor de laranja de inox Kehome",
+        "value": 42.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4hiVBo0",
+        "title": "Frigideira Inox com Revestimento Antiaderente 24cm Electrolux",
+        "value": 189.00,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4o3cYvH",
+        "title": "Porta Talher Gaveteiro Organizador De Gavetas Bambu Expasivel Premium",
+        "value": 110.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/3JgULvA",
+        "title": "Robô Aspirador Xiaomi Vacuum S10 - Branco passa pano",
+        "value": 1397.00,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4hiVQiU",
+        "title": "Conjunto de 6 Taças em Vidro - Jogo Canelado",
+        "value": 75.99,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/3WWbFmd",
+        "title": "Kit 2 Galheteiro Pulverizador Aço Inox 300ML",
+        "value": 28.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4nefrlF",
+        "title": "Suporte de Esponja Pia Cozinha Aço com 2 Unidades Inox",
+        "value": 19.49,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4qsvgbu",
+        "title": "Descanso P/Talher de Porcelana",
+        "value": 41.38,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4qmYiJj",
+        "title": "WOLFF - Cesta Oval com Alça em Papel com Forro em Tecido",
+        "value": 21.99,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/47iZ4P3",
+        "title": "Luva Térmica para Cozinhar em Silicone Forrada com Algodão Antiderrapante",
+        "value": 34.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4qomvPC",
+        "title": "Conjunto 8 Peças de Bambu para Sushi Koi",
+        "value": 56.45,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/47q8ecz",
+        "title": "Conjunto 4 Anéis P/Guardanapo de Aço Niquelado Circle - Lyor Prateado",
+        "value": 45.30,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4nhe31E",
+        "title": "Kit Jogo Americano Realeza Com Guardanapo Bordado Mesa Posta Sousplat (Marfim Bord Dourado)",
+        "value": 66.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4nmEyD8",
+        "title": "Kit Jogo Americano Realeza Com Guardanapo Bordado Mesa Posta Sousplat (Azul Bord Branco)",
+        "value": 101.90,
+        "image-url": null
+    },
+    {
+        "url": "https://www.angeloni.com.br/eletro/5095562-capacho-acasa-tranca-fibra-de-coco-40-60cm-ref-nat/p?idsku=110411&utm_source=google&utm_medium=cpc&utm_campaign=CA_PRF_Venda_ELETRO_AlwaysOn_N_Bazar_PMAX_N&gad_source=1&gad_campaignid=19554597049&gbraid=0AAAAADyXo2PhwysJGz8dFGT4HxNz37c9F&gclid=EAIaIQobChMIqKqx7JGikAMVm0VIAB1ubRLcEAQYAiABEgLhhPD_BwE",
+        "title": "Capacho Tranca Fibra de Coco 40x60cm - A\\CASA",
+        "value": 49.90,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/17nmaen",
+        "title": "Assadeiras Jogo 6 Assadeiras de Vidro com Tampa Cor Cinza - Marinex",
+        "value": 159.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/47q8qZl",
+        "title": "Manta Para Sofá Em Algodão Cinza Gigante 2,40 X 1,80",
+        "value": 41.90,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/4LAxHWfSU1",
+        "title": "Porta Utensílios Cerâmica Branca",
+        "value": 39.20,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/7fRPFg1UgM",
+        "title": "Kit 3 Formas Suiça Decorada 3 Peças",
+        "value": 62.99,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/1Xjqsnh",
+        "title": "Balança Digital De Cozinha Inox Até 10kg",
+        "value": 30.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4o3D69G",
+        "title": "Ou Porta Pão com Alças Linha Sense",
+        "value": 193.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4qoAnsW",
+        "title": "Puxa Saco Organizador Porta Sacolas Plásticas",
+        "value": 19.97,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/1Hgrg4f",
+        "title": "Aparelho De Jantar 20 Peças Roma Branco Porto Brasil",
+        "value": 402.94,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/1Lsif2S",
+        "title": "Panela De Pressão Tramontina Vancouver Alum Antiaderente 3l Cor Grafite",
+        "value": 251.38,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/5L3UTeYmQt",
+        "title": "Kit Tapete + Passadeira Bordado Artesanal 100% Algodão- TWO FACES - PRETO",
+        "value": 110.00,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/1y16Hh7",
+        "title": "Jogo de Panelas Tramontina Mônaco em Alumínio com Revestimento Interno e Externo",
+        "value": 929.90,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/70BiSuf7OC",
+        "title": "Kit 2 Porta Travesseiro CINZA",
+        "value": 51.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/3WiIhGE",
+        "title": "Euro Home - Garrafa de Vidro 1 litro H2O",
+        "value": 43.25,
+        "image-url": null
+    },
+    {
+        "url": "https://divulgador.magalu.com/dWjF1U6_",
+        "title": "Bowl Cerâmica Roma Branco 367 Ml Porto Brasil Conj. 6 Un.",
+        "value": 108.68,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/BLOKTbZTg",
+        "title": "Kit Costura completo com 96 PCS - Com estojo",
+        "value": 36.99,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/33fMK4g",
+        "title": "Conjunto 3 Refratários Com Alça Basic Lyor Branco",
+        "value": 155.19,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/2FyUKX6",
+        "title": "Varal Cabideiro Roupas Parede Retrátil 35",
+        "value": 157.99,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/8pdMeW69Kt",
+        "title": "Pazinha Pá De Lixo Dentado Dobrável com Cabo e Vassoura Cinza Multiuso",
+        "value": 69.99,
+        "image-url": null
+    },
+    {
+        "url": "https://divulgador.magalu.com/QC8Pl5yu",
+        "title": "Cuba para Banheiro Cerâmica Branca Oval 40cm Reno RC 8002",
+        "value": 262.53,
+        "image-url": null
+    },
+    {
+        "url": "https://www.calhaumida.com.br/lixeira-de-embutir-basic-8l-balde-plastico-com-tampa-removivel-em-aco-inox-escovado/p/4278?c=2&t=34&gad_source=1&gad_campaignid=21115892605&gbraid=0AAAAAqfEo2EZShN_-QYZ20OsIBez79JLU&gclid=CjwKCAjwmNLHBhA4EiwA3ts3ma3kVwOlKRUHLuNvq3yoGBtrYFB3AXqzzm5_LR7bA9C1DBh3_FJ7xhoCfs8QAvD_BwE",
+        "title": "Lixeira De Embutir Basic 8L",
+        "value": 163.26,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/1anBBy1",
+        "title": "Torre De Tomada Multiplug Retrátil Embutir Mesa NKF Branco",
+        "value": 107.00,
+        "image-url": null
+    },
+    {
+        "url": "https://www.belametais.com.br/dosador-para-detergente-embutido-inox-500-ml-flat-cromado?gad_source=1&gad_campaignid=15596844131&gbraid=0AAAAACx3QlfTS3iDKWhG0uV5cs0VLsccA&gclid=CjwKCAjwmNLHBhA4EiwA3ts3mWHA0vwWWUh3UjOPZNkrPQSC0U_uY3jeKuyoLu4B-gqYNnpuN2Ez7xoCmCsQAvD_BwE",
+        "title": "Dosador para Detergente Embutido Inox 500 ml (Flat Cromado)",
+        "value": 89.49,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4qoodR2",
+        "title": "Echo Pop (Geração mais recente) | Smart speaker compacto com som envolvente e Alexa | Cor Branca",
+        "value": 341.11,
+        "image-url": null
+    },
+    {
+        "url": "https://mercadolivre.com/sec/24YfxG6",
+        "title": "Kit C/2 Travesseiros Toque De Pluma 100% Algodão Extra Macio",
+        "value": 239.90,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/2LPsumhAol",
+        "title": "Churrasqueira Ecológica Sem Fumaça",
+        "value": 431.00,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/3qEghZRvNo",
+        "title": "Organizador Giratório Bandeja Grande Baixo Bambu Keep Cozinha Banheiro Produtos Temperos - Ou",
+        "value": 110.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/3JluI6l",
+        "title": "Amassador de Batata e Legumes Inox",
+        "value": 8.90,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/1LXLj1EA9F",
+        "title": "Escorredor de Prato Louça Retrátil Inox CINZA",
+        "value": 35.90,
+        "image-url": null
+    },
+    {
+        "url": "https://amzn.to/4oB31pm",
+        "title": "Vendasshop Rodo Silicone Multifuncional 2 em 1 Cinza",
+        "value": 36.84,
+        "image-url": null
+    },
+    {
+        "url": "https://s.shopee.com.br/9zpK2zFczj",
+        "title": "Kit Acessórios Para Banheiro Inox Quadrado 4 Peças Luxo Preto Fosco Black",
+        "value": 36.90,
+        "image-url": null
+    }
+]

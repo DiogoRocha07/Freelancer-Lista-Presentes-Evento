@@ -29,6 +29,8 @@
 .galleryImage{
     border-radius: 8px;
     object-fit: cover;
+    width: 350px;
+    height: 430px;
 }
 
 /* Responsive breakpoints */
@@ -52,12 +54,12 @@
     }
     
     .galleryImage {
-        width: 280px !important;
-        height: auto !important;
+        width: 300px !important;
+        height: 475px !important;
     }
     
-    /* Ocultar segunda e terceira imagens em mobile */
-    .galleryImage:nth-child(2),
+    /* Ocultar primeira e terceira imagens em mobile - mostrar apenas a do meio */
+    .galleryImage:nth-child(1),
     .galleryImage:nth-child(3) {
         display: none;
     }
@@ -83,12 +85,12 @@
     }
     
     .galleryImage {
-        width: 250px !important;
-        height: auto !important;
+        width: 280px !important;
+        height: 445px !important;
     }
     
-    /* Ocultar segunda e terceira imagens em mobile */
-    .galleryImage:nth-child(2),
+    /* Ocultar primeira e terceira imagens em mobile - mostrar apenas a do meio */
+    .galleryImage:nth-child(1),
     .galleryImage:nth-child(3) {
         display: none;
     }
@@ -108,12 +110,12 @@
     }
     
     .galleryImage {
-        width: 220px !important;
-        height: auto !important;
+        width: 250px !important;
+        height: 395px !important;
     }
     
-    /* Ocultar segunda e terceira imagens em mobile */
-    .galleryImage:nth-child(2),
+    /* Ocultar primeira e terceira imagens em mobile - mostrar apenas a do meio */
+    .galleryImage:nth-child(1),
     .galleryImage:nth-child(3) {
         display: none;
     }
