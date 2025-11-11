@@ -13,6 +13,7 @@ export default function Hero() {
           alt="foto2"
           width={350}
           height={430}
+          priority
           className={styles.galleryImage}
         />
         <Image

@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactStrictMode: true,
   images: {
+    unoptimized: true, // ⬅️ Isso resolve o erro 402 da Vercel
     remotePatterns: [
       {
         protocol: 'https',
