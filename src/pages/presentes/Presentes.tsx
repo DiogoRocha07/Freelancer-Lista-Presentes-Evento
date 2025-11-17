@@ -74,10 +74,19 @@ export default function Presentes() {
       newLista.sort((a, b) => (a.value || 0) - (b.value || 0));
     }
 
+    if (presentesSelecionados.length > 0) {
+      const selecionadosSet = new Set(presentesSelecionados);
+      const disponiveis = newLista.filter((presente) => !selecionadosSet.has(presente.id));
+      const selecionados = newLista.filter((presente) => selecionadosSet.has(presente.id));
+      newLista = [...disponiveis, ...selecionados];
+    }
+
     setLista(newLista);
-    // Reset paginação quando mudar filtro ou busca
+  }, [filtro, busca, listaOriginal, presentesSelecionados]);
+
+  useEffect(() => {
     setPresentesExibidos(9);
-  }, [filtro, busca, listaOriginal]);
+  }, [filtro, busca]);
 
   const carregarMaisPresentes = () => {
     setPresentesExibidos(prev => prev + 9);
@@ -274,11 +283,7 @@ export default function Presentes() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link">
-                          <path d="M15 3h6v6"/>
-                          <path d="M10 14 21 3"/>
-                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                        </svg>
+                        Acesse o site
                       </a>
                     </div>
                   )}
