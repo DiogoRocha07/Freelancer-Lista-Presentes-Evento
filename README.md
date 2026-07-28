@@ -1,40 +1,156 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🎁 Site e Lista de Presentes para Evento
 
-## Getting Started
+> Projeto freelancer desenvolvido para uma cliente real, com foco em experiência do usuário, responsividade e implementação de regras de negócio.
 
-First, run the development server:
+Aplicação web criada para um chá de casa nova, permitindo que os convidados visualizassem uma lista de presentes, pesquisassem produtos, consultassem os links das lojas e reservassem um item.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+O sistema foi desenvolvido para evitar que o mesmo presente fosse escolhido por mais de uma pessoa, mantendo a disponibilidade dos produtos atualizada durante a navegação.
+
+## ✨ Funcionalidades
+
+- Lista de presentes carregada a partir do Supabase
+- Busca de produtos por nome ou preço
+- Ordenação alfabética e por valor
+- Carregamento progressivo de itens com a opção “Ver mais”
+- Visualização de nome, imagem e preço dos presentes
+- Links para compra em lojas externas
+- Formulário de reserva com nome e telefone
+- Validação no servidor para impedir reservas duplicadas
+- Indicação visual de presentes já escolhidos
+- Sincronização periódica da disponibilidade dos itens
+- Atualização da lista ao retornar para a página
+- Estados de carregamento, erro e indisponibilidade
+- Formulário de confirmação de presença
+- Interface responsiva para dispositivos móveis
+- Otimização de imagens com `next/image`
+
+## 🛠️ Tecnologias utilizadas
+
+### Front-end
+
+- Next.js 15
+- React 19
+- TypeScript
+- CSS Modules
+
+### Backend e dados
+
+- Next.js API Routes
+- Supabase
+- Banco de dados relacional
+
+### Ferramentas
+
+- Git
+- GitHub
+- Vercel
+
+## 🧩 Arquitetura da aplicação
+
+```text
+Navegador
+    │
+    ▼
+Aplicação Next.js
+    │
+    ├── Componentes React
+    ├── Hooks personalizados
+    ├── API Routes
+    └── Cliente Supabase
+           │
+           ▼
+    Banco de dados Supabase
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A interface consome os dados dos presentes armazenados no Supabase. As reservas são enviadas para uma API Route do Next.js, responsável por validar a disponibilidade do item antes de registrar a escolha.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🎯 Regra de negócio principal
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Um dos principais desafios do projeto foi impedir que duas pessoas reservassem o mesmo presente.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Para isso, a API verifica no servidor se o identificador do presente já está associado a uma reserva antes de realizar uma nova inserção no banco de dados.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Quando o item já foi escolhido, a aplicação retorna uma mensagem amigável para o usuário e atualiza o estado visual do presente para indisponível.
 
-## Learn More
+Essa validação no servidor evita que a regra dependa apenas da interface do navegador.
 
-To learn more about Next.js, take a look at the following resources:
+## 🔄 Atualização da disponibilidade
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+A aplicação mantém a lista de presentes atualizada por meio de:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Consulta periódica ao banco de dados
+- Atualização ao retornar para a janela do navegador
+- Comunicação entre diferentes partes da interface
+- Atualização visual dos itens reservados
 
-## Deploy on Vercel
+Dessa forma, os convidados conseguiam identificar quais presentes ainda estavam disponíveis.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔗 Integração com lojas externas
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Cada presente podia conter um link para uma loja externa, permitindo que o convidado acessasse diretamente a página do produto.
+
+Os links eram abertos em uma nova guia e utilizavam atributos de segurança como:
+
+```html
+target="_blank"
+rel="noopener noreferrer"
+```
+
+A interface também informava que preço e disponibilidade poderiam variar no site da loja.
+
+## 📱 Responsividade
+
+A aplicação foi desenvolvida com foco em dispositivos móveis, considerando que a maior parte dos convidados acessaria o site pelo celular.
+
+A interface foi adaptada para diferentes tamanhos de tela, incluindo:
+
+- Cards responsivos
+- Formulários adaptados para dispositivos móveis
+- Modal de reserva
+- Busca e ordenação
+- Navegação simplificada
+
+## 📁 Organização do projeto
+
+```text
+src/
+├── app/
+│   ├── api/
+│   ├── confirmar-presenca/
+│   └── presentes/
+├── components/
+├── hooks/
+├── lib/
+├── types/
+└── styles/
+```
+
+A estrutura separa componentes, hooks, tipos, integração com serviços externos e regras relacionadas às rotas da aplicação.
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento deste projeto, pratiquei:
+
+- Desenvolvimento de uma solução para uma cliente real
+- Levantamento e implementação de requisitos
+- Criação de interfaces responsivas
+- Integração entre Next.js e Supabase
+- Criação de API Routes
+- Implementação de regras de negócio no servidor
+- Modelagem de dados relacionais
+- Tratamento de estados de carregamento e erro
+- Organização de componentes e hooks
+- Tipagem com TypeScript
+- Publicação de uma aplicação Next.js
+
+## ⚠️ Status do projeto
+
+O desenvolvimento foi concluído e a aplicação foi utilizada no evento da cliente.
+
+Atualmente, o projeto está disponível apenas como código-fonte e registro de portfólio. O ambiente publicado foi desativado após a interrupção da instância utilizada no Supabase e a perda dos dados armazenados.
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Diogo Rocha** como projeto freelancer.
+
+[LinkedIn](https://www.linkedin.com/in/diogo-rocha07/)
