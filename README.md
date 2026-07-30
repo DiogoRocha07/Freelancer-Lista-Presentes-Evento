@@ -2,27 +2,62 @@
 
 > Projeto freelancer desenvolvido para uma cliente real, com foco em experiência do usuário, responsividade e implementação de regras de negócio.
 
-Aplicação web criada para um chá de casa nova, permitindo que os convidados visualizassem uma lista de presentes, pesquisassem produtos, consultassem os links das lojas e reservassem um item.
+Aplicação web criada para um chá de casa nova, permitindo que os convidados consultem informações do evento, visualizem a lista de presentes, pesquisem produtos, acessem links de lojas e reservem um item.
 
-O sistema foi desenvolvido para evitar que o mesmo presente fosse escolhido por mais de uma pessoa, mantendo a disponibilidade dos produtos atualizada durante a navegação.
+O sistema também possui uma regra de negócio para impedir que o mesmo presente seja reservado por mais de uma pessoa.
+
+## 🌐 Projeto publicado
+
+A aplicação está disponível online:
+
+[**Acessar projeto na Vercel**](https://freelancer-lista-presentes-evento.vercel.app/)
+
+## 📌 Contexto do projeto
+
+Este projeto foi desenvolvido como trabalho freelancer para atender uma necessidade real.
+
+A cliente precisava de uma página centralizada para apresentar as informações do evento e oferecer aos convidados uma forma simples de consultar e reservar presentes.
+
+A solução foi construída com Next.js e integrada ao Supabase para armazenar os produtos e registrar as reservas.
 
 ## ✨ Funcionalidades
 
-- Lista de presentes carregada a partir do Supabase
-- Busca de produtos por nome ou preço
-- Ordenação alfabética e por valor
-- Carregamento progressivo de itens com a opção “Ver mais”
-- Visualização de nome, imagem e preço dos presentes
-- Links para compra em lojas externas
-- Formulário de reserva com nome e telefone
-- Validação no servidor para impedir reservas duplicadas
-- Indicação visual de presentes já escolhidos
-- Sincronização periódica da disponibilidade dos itens
-- Atualização da lista ao retornar para a página
-- Estados de carregamento, erro e indisponibilidade
-- Formulário de confirmação de presença
-- Interface responsiva para dispositivos móveis
+### Evento
+
+- Apresentação das informações do evento
+- Data, horário e localização
+- Link externo para o local
+- Navegação responsiva entre as seções
+- Opção de presente por Pix
+
+### Lista de presentes
+
+- Lista dinâmica carregada a partir do Supabase
+- Exibição de nome, imagem e preço
+- Busca por nome ou preço
+- Ordenação alfabética
+- Ordenação por menor ou maior preço
+- Carregamento progressivo com a opção “Ver mais”
+- Links para produtos em lojas externas
 - Otimização de imagens com `next/image`
+
+### Reserva de presentes
+
+- Seleção de presente por modal
+- Formulário com nome e telefone
+- Persistência da reserva no Supabase
+- Validação no servidor para impedir reservas duplicadas
+- Indicação visual de presentes indisponíveis
+- Feedback de sucesso e erro
+- Atualização periódica da disponibilidade
+- Atualização ao retornar para a janela do navegador
+
+### Confirmação de presença
+
+- Formulário para confirmação dos convidados
+- Validação dos dados
+- Integração com o Supabase
+- Feedback após o envio
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -32,18 +67,21 @@ O sistema foi desenvolvido para evitar que o mesmo presente fosse escolhido por 
 - React 19
 - TypeScript
 - CSS Modules
+- Pages Router
+- `next/image`
 
-### Backend e dados
+### Backend e banco de dados
 
 - Next.js API Routes
 - Supabase
-- Banco de dados relacional
+- PostgreSQL
+- Row Level Security — RLS
 
-### Ferramentas
+### Infraestrutura e ferramentas
 
+- Vercel
 - Git
 - GitHub
-- Vercel
 
 ## 🧩 Arquitetura da aplicação
 
@@ -55,81 +93,158 @@ Aplicação Next.js
     │
     ├── Componentes React
     ├── Hooks personalizados
+    ├── Pages Router
     ├── API Routes
     └── Cliente Supabase
-           │
-           ▼
-    Banco de dados Supabase
+             │
+             ▼
+      Banco de dados Supabase
 ```
 
-A interface consome os dados dos presentes armazenados no Supabase. As reservas são enviadas para uma API Route do Next.js, responsável por validar a disponibilidade do item antes de registrar a escolha.
+A interface consulta os presentes armazenados no Supabase.
 
-## 🎯 Regra de negócio principal
+Durante uma reserva, a aplicação envia os dados para uma API Route do Next.js. A rota verifica no servidor se o presente ainda está disponível antes de registrar a escolha.
 
-Um dos principais desafios do projeto foi impedir que duas pessoas reservassem o mesmo presente.
+## 🎯 Principal desafio técnico
 
-Para isso, a API verifica no servidor se o identificador do presente já está associado a uma reserva antes de realizar uma nova inserção no banco de dados.
+Um dos principais desafios foi impedir que duas pessoas reservassem o mesmo presente.
 
-Quando o item já foi escolhido, a aplicação retorna uma mensagem amigável para o usuário e atualiza o estado visual do presente para indisponível.
+Para resolver esse problema, a API verifica se o identificador do presente já está associado a uma reserva antes de realizar uma nova inserção.
 
-Essa validação no servidor evita que a regra dependa apenas da interface do navegador.
+Caso o presente já tenha sido escolhido, a aplicação retorna uma mensagem de erro amigável e atualiza o item como indisponível na interface.
 
-## 🔄 Atualização da disponibilidade
+Essa abordagem evita que a regra dependa apenas do estado visual no navegador.
 
-A aplicação mantém a lista de presentes atualizada por meio de:
+## 🔄 Sincronização da disponibilidade
+
+A disponibilidade dos presentes é atualizada por meio de:
 
 - Consulta periódica ao banco de dados
 - Atualização ao retornar para a janela do navegador
 - Comunicação entre diferentes partes da interface
-- Atualização visual dos itens reservados
+- Atualização local após uma nova reserva
 
-Dessa forma, os convidados conseguiam identificar quais presentes ainda estavam disponíveis.
+Isso permite que os convidados visualizem quais itens ainda estão disponíveis durante a navegação.
 
 ## 🔗 Integração com lojas externas
 
-Cada presente podia conter um link para uma loja externa, permitindo que o convidado acessasse diretamente a página do produto.
+Os produtos podem possuir links para páginas externas de lojas.
 
-Os links eram abertos em uma nova guia e utilizavam atributos de segurança como:
+Esses links são abertos em uma nova guia e utilizam:
 
 ```html
 target="_blank"
 rel="noopener noreferrer"
 ```
 
-A interface também informava que preço e disponibilidade poderiam variar no site da loja.
+A interface também informa que o preço e a disponibilidade podem variar no site de origem.
 
 ## 📱 Responsividade
 
-A aplicação foi desenvolvida com foco em dispositivos móveis, considerando que a maior parte dos convidados acessaria o site pelo celular.
+A aplicação foi desenvolvida com foco em dispositivos móveis, considerando que grande parte dos convidados acessaria o site pelo celular.
 
-A interface foi adaptada para diferentes tamanhos de tela, incluindo:
+Foram implementados:
 
-- Cards responsivos
-- Formulários adaptados para dispositivos móveis
+- Menu responsivo
+- Cards adaptáveis
 - Modal de reserva
-- Busca e ordenação
+- Formulários otimizados para dispositivos móveis
+- Controles com área adequada para toque
+- Tipografia responsiva
 - Navegação simplificada
 
 ## 📁 Organização do projeto
 
 ```text
 src/
-├── app/
-│   ├── api/
-│   ├── confirmar-presenca/
-│   └── presentes/
-├── components/
 ├── hooks/
 ├── lib/
-├── types/
-└── styles/
+│   ├── eventBus.ts
+│   └── supabase.ts
+├── pages/
+│   ├── api/
+│   ├── confirmacao/
+│   ├── header/
+│   ├── hero/
+│   ├── local/
+│   ├── pix/
+│   ├── presentes/
+│   ├── _app.tsx
+│   ├── _document.tsx
+│   └── index.tsx
+├── styles/
+└── types/
 ```
 
-A estrutura separa componentes, hooks, tipos, integração com serviços externos e regras relacionadas às rotas da aplicação.
+A estrutura separa páginas, integração com serviços externos, hooks, tipos e estilos.
+
+## 🚀 Como executar localmente
+
+### Pré-requisitos
+
+- Node.js
+- npm
+- Projeto configurado no Supabase
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/DiogoRocha07/Freelancer-Lista-Presentes-Evento.git
+cd Freelancer-Lista-Presentes-Evento
+```
+
+### 2. Instale as dependências
+
+```bash
+npm install
+```
+
+### 3. Configure as variáveis de ambiente
+
+Crie um arquivo `.env.local` na raiz do projeto:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
+```
+
+Utilize a URL e a chave pública do seu projeto no Supabase.
+
+Nunca utilize uma `secret key` ou `service_role` em uma variável iniciada por `NEXT_PUBLIC_`.
+
+### 4. Execute a aplicação
+
+```bash
+npm run dev
+```
+
+Acesse:
+
+```text
+http://localhost:3000
+```
+
+### 5. Gere o build de produção
+
+```bash
+npm run build
+npm start
+```
+
+## 🔐 Variáveis de ambiente
+
+| Variável | Descrição |
+|---|---|
+| `NEXT_PUBLIC_SUPABASE_URL` | URL pública do projeto no Supabase |
+| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Chave pública usada pela aplicação |
+
+O arquivo `.env.local` não deve ser enviado ao GitHub.
+
+Para documentar as variáveis necessárias, o projeto pode possuir um `.env.example` sem valores reais.
 
 ## 📚 Aprendizados
 
-Durante o desenvolvimento deste projeto, pratiquei:
+Durante o desenvolvimento e a manutenção deste projeto, pratiquei:
 
 - Desenvolvimento de uma solução para uma cliente real
 - Levantamento e implementação de requisitos
@@ -141,16 +256,31 @@ Durante o desenvolvimento deste projeto, pratiquei:
 - Tratamento de estados de carregamento e erro
 - Organização de componentes e hooks
 - Tipagem com TypeScript
-- Publicação de uma aplicação Next.js
+- Configuração de variáveis de ambiente
+- Atualização de dependências
+- Deploy de uma aplicação Next.js na Vercel
 
-## ⚠️ Status do projeto
+## 📌 Status do projeto
 
-O desenvolvimento foi concluído e a aplicação foi utilizada no evento da cliente.
+✅ Desenvolvimento concluído  
+✅ Utilizado no evento da cliente  
+✅ Banco de dados recuperado  
+✅ Dependências atualizadas  
+✅ Aplicação publicada novamente na Vercel  
 
-Atualmente, o projeto está disponível apenas como código-fonte e registro de portfólio. O ambiente publicado foi desativado após a interrupção da instância utilizada no Supabase e a perda dos dados armazenados.
+O projeto está atualmente disponível como aplicação funcional e como registro de portfólio.
+
+Melhorias futuras:
+
+- Testes automatizados com Jest e React Testing Library
+- Testes das API Routes
+- Ampliação da validação dos formulários
+- Ambiente de demonstração separado dos dados originais
+- Integração contínua com GitHub Actions
 
 ## 👨‍💻 Autor
 
 Desenvolvido por **Diogo Rocha** como projeto freelancer.
 
-[LinkedIn](https://www.linkedin.com/in/diogo-rocha07/)
+- [GitHub](https://github.com/DiogoRocha07)
+- [LinkedIn](https://www.linkedin.com/in/diogo-rocha07/)
